@@ -1,0 +1,1260 @@
+post,{apiRoot}/eecs-serviceprovisioning/v1/subscriptions,Creates a new subscription in ECS in order to be notified of provisioning data  changes of interest.
+put,{apiRoot}/eecs-serviceprovisioning/v1/subscriptions/{subscriptionId},Updates an existing individual service provisioning subscription identified by the subscriptionId.
+delete,{apiRoot}/eecs-serviceprovisioning/v1/subscriptions/{subscriptionId},Deletes an existing individual service provisioning subscription identified by the subscriptionId.
+patch,{apiRoot}/eecs-serviceprovisioning/v1/subscriptions/{subscriptionId},Partially updates an existing individual service provisioning subscription identified by the subscriptionId.
+post,{apiRoot}/eecs-serviceprovisioning/v1/request,Request service provisioning information.
+post,{apiRoot}/eees-acrevents/v1/subscriptions,Creates a new individual ACR events subscription.
+put,{apiRoot}/eees-acrevents/v1/subscriptions/{subscriptionId},Updates an existing individual ACR events subscription identified by the subscriptionId.
+delete,{apiRoot}/eees-acrevents/v1/subscriptions/{subscriptionId},Deletes an existing individual ACR events subscription identified by the subscriptionId.
+patch,{apiRoot}/eees-acrevents/v1/subscriptions/{subscriptionId},Partially modifyan existing individual ACR events subscription identified by the subscriptionId.
+post,{apiRoot}/eees-appctxtreloc/v1/determine,Request ACR determination.
+post,{apiRoot}/eees-appctxtreloc/v1/initiate,Request the initiation of ACR.
+post,{apiRoot}/eees-appctxtreloc/v1/declare,Informs about the selected target EAS and provides the associated information.
+post,{apiRoot}/eees-easdiscovery/v1/subscriptions,Creates a new individual EAS discovery subscription.
+put,{apiRoot}/eees-easdiscovery/v1/subscriptions/{subscriptionId},Updates an existing individual EAS discovery subscription identified by the subscriptionId.
+delete,{apiRoot}/eees-easdiscovery/v1/subscriptions/{subscriptionId},Deletes an existing individual EAS discovery subscription identified by the subscriptionId.
+patch,{apiRoot}/eees-easdiscovery/v1/subscriptions/{subscriptionId},Partial update an existing EAS Discovery Subscription resource identified by a subscriptionId.
+post,{apiRoot}/eees-easdiscovery/v1/eas-profiles/request-discovery,Provides EAS information requested by the service consumer (i.e. EEC EAS or EES).
+post,{apiRoot}/eees-eecregistration/v1/registrations,Create a new EEC registration at the EES.
+put,{apiRoot}/eees-eecregistration/v1/registrations/{registrationId},Update an existing EEC registration a the EES.
+delete,{apiRoot}/eees-eecregistration/v1/registrations/{registrationId},Remove an existing ECC registration at EES.
+patch,{apiRoot}/eees-eecregistration/v1/registrations/{registrationId},partially update an existing EEC registration a the EES.
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/consumption-reporting-configuration,Activate the consumption reporting procedure for the specified Provisioning Session by providing the Consumption Reporting Configuration
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/consumption-reporting-configuration,Retrieve the Consumption Reporting Configuration of the specified Provisioning Session
+put,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/consumption-reporting-configuration,Update the Consumption Reporting Configuration for the specified Provisioning Session
+patch,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/consumption-reporting-configuration,Patch the Consumption Reporting Configuration for the specified Provisioning Session
+delete,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/consumption-reporting-configuration,Destroy the current Consumption Reporting Configuration of the specified Provisioning Session
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-hosting-configuration,Create (and optionally upload) the Content Hosting Configuration for the specified Provisioning Session
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-hosting-configuration,Retrieve the Content Hosting Configuration of the specified Provisioning Session
+put,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-hosting-configuration,Update the Content Hosting Configuration for the specified Provisioning Session
+patch,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-hosting-configuration,Patch the Content Hosting Configuration for the specified Provisioning Session
+delete,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-hosting-configuration,Destroy the current Content Hosting Configuration of the specified Provisioning Session
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-hosting-configuration/purge,Purge the content of the cache for the Content Hosting Configuration of the specified Provisioning Session
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-preparation-templates,Create (and optionally upload) a new Content Preparation Template for the specified Provisioning Session
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-preparation-templates/{contentPreparationTemplateId},Retrieve the specified Content Preparation Template of the specified Provisioning Session
+put,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-preparation-templates/{contentPreparationTemplateId},Update the specified Content Preparation Template for the specified Provisioning Session
+patch,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-preparation-templates/{contentPreparationTemplateId},Patch the specified Content Preparation Template for the specified Provisioning Session
+delete,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/content-preparation-templates/{contentPreparationTemplateId},Destroy the specified Content Preparation Template of the specified Provisioning Session
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/protocols,Retrieve the set of Content Protocols supported by the specified Provisioning Session
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/edge-resources-configurations,Create an Edge Resources Configuration within the scope of the specified Provisioning Session
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/edge-resources-configurations/{edgeResourcesConfigurationId},Retrieve the Edge Resources Configuration of the specified Provisioning Session
+put,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/edge-resources-configurations/{edgeResourcesConfigurationId},Update an Edge Resources Configuration for the specified Provisioning Session
+patch,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/edge-resources-configurations/{edgeResourcesConfigurationId},Patch the Edge Resources Configuration for the specified Provisioning Session
+delete,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/edge-resources-configurations/{edgeResourcesConfigurationId},
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/event-data-processing-configurations,Supply an Event Data Processing Configuration for the specified Provisioning Session
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/event-data-processing-configurations/{eventDataProcessingConfigurationId},Retrieve the specified Event Data Processing Configuration of the specified Provisioning Session
+put,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/event-data-processing-configurations/{eventDataProcessingConfigurationId},Update the specified Event Data Processing Configuration for the specified Provisioning Session
+patch,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/event-data-processing-configurations/{eventDataProcessingConfigurationId},Patch the specified Event Data Processing Configuration for the specified Provisioning Session
+delete,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/event-data-processing-configurations/{eventDataProcessingConfigurationId},Destroy the specified Event Data Processing Configuration of the specified Provisioning Session
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/metrics-reporting-configurations,Activate the Metrics reporting procedure for the specified Provisioning Session by providing the Metrics Reporting Configuration
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/metrics-reporting-configurations/{metricsReportingConfigurationId},Retrieve the specified Metrics Reporting Configuration of the specified Provisioning Session
+put,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/metrics-reporting-configurations/{metricsReportingConfigurationId},Update the specified Metrics Reporting Configuration for the specified Provisioning Session
+patch,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/metrics-reporting-configurations/{metricsReportingConfigurationId},Patch the specified Metrics Reporting Configuration for the specified Provisioning Session
+delete,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/metrics-reporting-configurations/{metricsReportingConfigurationId},Destroy the specified Metrics Reporting Configuration of the specified Provisioning Session
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/policy-templates,Create (and optionally upload) a new Policy Template
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/policy-templates/{policyTemplateId},Retrieve a representation of an existing Policy Template in the specified Provisioning Session
+put,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/policy-templates/{policyTemplateId},Update a Policy Template for the specified Provisioning Session
+patch,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/policy-templates/{policyTemplateId},Patch the Policy Template for the specified Provisioning Session
+delete,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/policy-templates/{policyTemplateId},
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions,Create a new Provisioning Session
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId},Retrieve an existing Provisioning Session
+delete,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId},Destroy an existing Provisioning Session
+post,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/certificates,Create or reserve a Service Certificate resource
+put,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/certificates/{certificateId},Upload the X.509 certificate for a previously reserved Server Certificate resource
+get,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/certificates/{certificateId},Retrieve the X.509 certificate representation of the specified Server Certificate resource
+delete,{apiRoot}/3gpp-m1/v2/provisioning-sessions/{provisioningSessionId}/certificates/{certificateId},Destroy an existing Server Certificate resource
+post,{apiRoot}/3gpp-m5/v2/consumption-reporting/{aspId},Submit a Consumption Report
+post,{apiRoot}/3gpp-m5/v2/dynamic-policies,Create (and optionally upload) a new Dynamic Policy resource
+get,{apiRoot}/3gpp-m5/v2/dynamic-policies/{dynamicPolicyId},Retrieve an existing Dynamic Policy resource
+put,{apiRoot}/3gpp-m5/v2/dynamic-policies/{dynamicPolicyId},Update an existing Dynamic Policy resource
+patch,{apiRoot}/3gpp-m5/v2/dynamic-policies/{dynamicPolicyId},Patch an existing Dynamic Policy resource
+delete,{apiRoot}/3gpp-m5/v2/dynamic-policies/{dynamicPolicyId},Destroy an existing Dynamic Policy resource
+post,{apiRoot}/3gpp-m5/v2/metrics-reporting/{provisioningSessionId}/{metricsReportingConfigurationId},Submit a Metrics Report
+post,{apiRoot}/3gpp-m5/v2/network-assistance/,Create a new Network Assistance Session.
+get,{apiRoot}/3gpp-m5/v2/network-assistance/{naSessionId},Retrieve an existing Network Assistance Session resource
+put,{apiRoot}/3gpp-m5/v2/network-assistance/{naSessionId},Update an existing Network Assistance Session resource
+patch,{apiRoot}/3gpp-m5/v2/network-assistance/{naSessionId},Patch an existing Network Assistance Session resource
+delete,{apiRoot}/3gpp-m5/v2/network-assistance/{naSessionId},Destroy an existing Network Assistance Session resource
+get,{apiRoot}/3gpp-m5/v2/network-assistance/{naSessionId}/recommendation,Obtain a bit rate recommendation for the next recommendation window
+post,{apiRoot}/3gpp-m5/v2/network-assistance/{naSessionId}/boost-request,Request a delivery boost
+get,{apiRoot}/3gpp-m5/v2/service-access-information/{provisioningSessionId},Retrieve the Service Access Information resource
+post,{apiRoot}/3gpp-ndcaf_data-reporting/v1/sessions,Create a new Data Reporting Session
+get,{apiRoot}/3gpp-ndcaf_data-reporting/v1/sessions/{sessionId},Retrieve an existing Data Reporting Session
+delete,{apiRoot}/3gpp-ndcaf_data-reporting/v1/sessions/{sessionId},Destroy an existing Data Reporting Session
+post,{apiRoot}/3gpp-ndcaf_data-reporting/v1/sessions/{sessionId}/report,Report UE data in the context of an existing Data Reporting Session
+post,{apiRoot}/3gpp-ndcaf_data-reporting-provisioning/v1/sessions,Create a new Data Reporting Provisioning Session
+get,{apiRoot}/3gpp-ndcaf_data-reporting-provisioning/v1/sessions/{sessionId},Retrieve an existing Data Reporting Provisioning Session
+delete,{apiRoot}/3gpp-ndcaf_data-reporting-provisioning/v1/sessions/{sessionId},Destroy an existing Data Reporting Provisioning Session
+post,{apiRoot}/3gpp-ndcaf_data-reporting-provisioning/v1/sessions/{sessionId}/configurations/{configurationId},Create a new Data Reporting Configuration subresource within the scope of an existing Data Reporting Provisioning Session
+get,{apiRoot}/3gpp-ndcaf_data-reporting-provisioning/v1/sessions/{sessionId}/configurations/{configurationId},Retrieve an existing Data Reporting Configuration
+put,{apiRoot}/3gpp-ndcaf_data-reporting-provisioning/v1/sessions/{sessionId}/configurations/{configurationId},Replace an existing Data Reporting Configuration subresource
+patch,{apiRoot}/3gpp-ndcaf_data-reporting-provisioning/v1/sessions/{sessionId}/configurations/{configurationId},Modify an existing Data Reporting Configuration subresource
+delete,{apiRoot}/3gpp-ndcaf_data-reporting-provisioning/v1/sessions/{sessionId}/configurations/{configurationId},Destroy an existing Data Reporting Configuration
+get,{MnSRoot}/FaultSupervisionMnS/{MnSversion}/alarms,Retrieve multiple alarms
+patch,{MnSRoot}/FaultSupervisionMnS/{MnSversion}/alarms,Clear acknowledge or unacknowledge multiple alarms
+get,{MnSRoot}/FaultSupervisionMnS/{MnSversion}/alarms/alarmCount,Get the alarm count per perceived severity
+patch,{MnSRoot}/FaultSupervisionMnS/{MnSversion}/alarms/{alarmId},Clear  acknowledge or unacknowledge a single alarm
+post,{MnSRoot}/FaultSupervisionMnS/{MnSversion}/alarms/{alarmId}/comments,Add a comment to a single alarm
+post,{MnSRoot}/FaultSupervisionMnS/{MnSversion}/subscriptions,Create a subscription
+delete,{MnSRoot}/FaultSupervisionMnS/{MnSversion}/subscriptions/{subscriptionId},Delete a subscription
+get,{MnSRoot}/fileDataReportingMnS/{MnSVersion}/files,Read information about available files
+post,{MnSRoot}/fileDataReportingMnS/{MnSVersion}/subscriptions,Create a subscription
+delete,{MnSRoot}/fileDataReportingMnS/{MnSVersion}/subscriptions/{subscriptionId},Delete a subscription
+post,{root}/notificationSink,Send notifications about performance threshold crossing
+put,{MnSRoot}/ProvMnS/{MnSVersion}/{URI-LDN-first-part}/{className}={id},Replaces a complete single resource or creates it if it does not exist
+get,{MnSRoot}/ProvMnS/{MnSVersion}/{URI-LDN-first-part}/{className}={id},Reads one or multiple resources
+patch,{MnSRoot}/ProvMnS/{MnSVersion}/{URI-LDN-first-part}/{className}={id},Patches one or multiple resources
+delete,{MnSRoot}/ProvMnS/{MnSVersion}/{URI-LDN-first-part}/{className}={id},Deletes one resource
+post,{MnSRoot}/StreamingDataReportingMnS/{MnSVersion}/connections,Inform consumer about reporting streams to be carried by the new connection and receive a new connection id.
+get,{MnSRoot}/StreamingDataReportingMnS/{MnSVersion}/connections,Obtain information about connections.
+get,{MnSRoot}/StreamingDataReportingMnS/{MnSVersion}/connections/{connectionId},Obtain information about a connection.
+post,{MnSRoot}/StreamingDataReportingMnS/{MnSVersion}/connections/{connectionId}/streams,Inform consumer about new reporting streams on an existing connection.
+delete,{MnSRoot}/StreamingDataReportingMnS/{MnSVersion}/connections/{connectionId}/streams,Remove reporting streams from an existing connection
+get,{MnSRoot}/StreamingDataReportingMnS/{MnSVersion}/connections/{connectionId}/streams,Obtain information about streams.
+get,{MnSRoot}/StreamingDataReportingMnS/{MnSVersion}/connections/{connectionId}/streams/{streamId},Obtain information about stream
+post,{MnSRoot}/PerfMeasJobCtrlMnS/{MnSVersion}/measJobs,Create a measurement job
+get,{MnSRoot}/PerfMeasJobCtrlMnS/{MnSVersion}/measJobs,Read resources of measurement jobs
+get,{MnSRoot}/PerfMeasJobCtrlMnS/{MnSVersion}/measJobs/{jobId},Read resource of a single measurement job
+delete,{MnSRoot}/PerfMeasJobCtrlMnS/{MnSVersion}/measJobs/{jobId},Delete a single measurement job
+get,{apiRoot}/3gpp-as-session-with-qos/v1/{scsAsId}/subscriptions,Read all or queried active subscriptions for the SCS/AS.
+post,{apiRoot}/3gpp-as-session-with-qos/v1/{scsAsId}/subscriptions,Creates a new subscription resource.
+get,{apiRoot}/3gpp-as-session-with-qos/v1/{scsAsId}/subscriptions/{subscriptionId},Read an active subscriptions for the SCS/AS and the subscription Id.
+put,{apiRoot}/3gpp-as-session-with-qos/v1/{scsAsId}/subscriptions/{subscriptionId},Updates/replaces an existing subscription resource.
+patch,{apiRoot}/3gpp-as-session-with-qos/v1/{scsAsId}/subscriptions/{subscriptionId},Updates/replaces an existing subscription resource.
+delete,{apiRoot}/3gpp-as-session-with-qos/v1/{scsAsId}/subscriptions/{subscriptionId},Deletes an already existing subscription.
+get,{apiRoot}/3gpp-chargeable-party/v1/{scsAsId}/transactions,Read all or queried chargeable party transaction resources for a given SCS/AS.
+post,{apiRoot}/3gpp-chargeable-party/v1/{scsAsId}/transactions,Create a new chargeable party transaction resource.
+get,{apiRoot}/3gpp-chargeable-party/v1/{scsAsId}/transactions/{transactionId},Read a chargeable party resource for a given SCS/AS and a transaction Id.
+patch,{apiRoot}/3gpp-chargeable-party/v1/{scsAsId}/transactions/{transactionId},Updates a existing chargeable party resource for a given SCS/AS and transaction Id.
+delete,{apiRoot}/3gpp-chargeable-party/v1/{scsAsId}/transactions/{transactionId},Deletes a chargeable party resource for a given SCS/AS and a transcation Id.
+get,{apiRoot}/3gpp-cp-parameter-provisioning/v1/{scsAsId}/subscriptions,Read all active CP parameter provisioning subscription resources for a given SCS/AS.
+post,{apiRoot}/3gpp-cp-parameter-provisioning/v1/{scsAsId}/subscriptions,Create a new subscription resource of provisioning CP parameter set(s).
+get,{apiRoot}/3gpp-cp-parameter-provisioning/v1/{scsAsId}/subscriptions/{subscriptionId},Read a CP parameter provisioning subscription resource.
+put,{apiRoot}/3gpp-cp-parameter-provisioning/v1/{scsAsId}/subscriptions/{subscriptionId},Modify a CP parameter provisioning subscription resource.
+delete,{apiRoot}/3gpp-cp-parameter-provisioning/v1/{scsAsId}/subscriptions/{subscriptionId},Delete a CP parameter provisioning subscription resource.
+get,{apiRoot}/3gpp-cp-parameter-provisioning/v1/{scsAsId}/subscriptions/{subscriptionId}/cpSets/{setId},Read CP at individual CP set(s) level associated with a CP parameter set Id.
+put,{apiRoot}/3gpp-cp-parameter-provisioning/v1/{scsAsId}/subscriptions/{subscriptionId}/cpSets/{setId},Update CP at individual CP set(s) level associated with a CP parameter set Id.
+delete,{apiRoot}/3gpp-cp-parameter-provisioning/v1/{scsAsId}/subscriptions/{subscriptionId}/cpSets/{setId},Delete CP at individual CP set(s) level associated with a CP parameter set Id.
+get,{apiRoot}/3gpp-device-triggering/v1/{scsAsId}/transactions,read all active device triggering transactions for a given SCS/AS.
+post,{apiRoot}/3gpp-device-triggering/v1/{scsAsId}/transactions,Create a long-term transaction for a device triggering.
+get,{apiRoot}/3gpp-device-triggering/v1/{scsAsId}/transactions/{transactionId},Read a device triggering transaction resource.
+put,{apiRoot}/3gpp-device-triggering/v1/{scsAsId}/transactions/{transactionId},Replace an existing device triggering transaction resource and the corresponding device trigger request.
+patch,{apiRoot}/3gpp-device-triggering/v1/{scsAsId}/transactions/{transactionId},Modify an existing Individual Device Triggering Transaction resource and the corresponding device triggering request.
+delete,{apiRoot}/3gpp-device-triggering/v1/{scsAsId}/transactions/{transactionId},Deletes an already existing device triggering transaction.
+post,{apiRoot}/3gpp-ecr-control/v1/query,Query the status of enhanced converage restriction for a UE.
+post,{apiRoot}/3gpp-ecr-control/v1/configure,Configure the enhanced converage restriction for a UE.
+get,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation,read all TMGI Allocation resource for a given SCS/AS
+post,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation,Creates a new TMGI Allocation resource for a given SCS/AS.
+get,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi},Read a TMGI Allocation resource for a given SCS/AS and a TMGI.
+put,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi},Updates an existing TMGI Allocation resource for a given SCS/AS and a TMGI.
+patch,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi},Updates an existing TMGI Allocation resource for a given SCS/AS and a TMGI.
+delete,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi},Deletes an existing TMGI Allocation resource for a given SCS/AS and a TMGI.
+get,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi}/delivery-via-mbms,Read all group message delivery via MBMS resource for a given SCS/AS and a TMGI.
+post,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi}/delivery-via-mbms,Creates a new delivery via MBMS for a given SCS/AS and a TMGI.
+get,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi}/delivery-via-mbms/{transactionId},Read all group message delivery via MBMS resource for a given SCS/AS and a TMGI.
+put,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi}/delivery-via-mbms/{transactionId},Updates a existing delivery via MBMS for a given SCS/AS  a TMGI and transaction Id.
+patch,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi}/delivery-via-mbms/{transactionId},Updates a existing delivery via MBMS for a given SCS/AS  a TMGI and transaction Id.
+delete,{apiRoot}/3gpp-group-message-delivery-mb2/v1/{scsAsId}/tmgi-allocation/{tmgi}/delivery-via-mbms/{transactionId},Deletes a delivery via MBMS resource for a given SCS/AS  a TMGI and a transcation Id.
+get,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services,Read all service resources for a given SCS/AS.
+post,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services,Creates a new service creation resource for a given SCS/AS.
+get,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services/{serviceId},Read a service resource for a given SCS/AS and a Service Id.
+delete,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services/{serviceId},Deletes an existing service resource for a given SCS/AS and a service id.
+get,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services/{serviceId}/delivery-via-mbms,Read all group message delivery via MBMS resource for a given SCS/AS and a service id.
+post,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services/{serviceId}/delivery-via-mbms,Creates a new delivery via MBMS for a given SCS/AS and a service Id.
+get,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services/{serviceId}/delivery-via-mbms/{transactionId},Read all group message delivery via MBMS resource for a given SCS/AS and a service Id.
+put,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services/{serviceId}/delivery-via-mbms/{transactionId},Updates an existing delivery via MBMS for a given SCS/AS  a service Id and transaction Id.
+patch,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services/{serviceId}/delivery-via-mbms/{transactionId},Updates an existing delivery via MBMS for a given SCS/AS  a service Id and transaction Id.
+delete,{apiRoot}/3gpp-group-message-delivery-xmb/v1/{scsAsId}/services/{serviceId}/delivery-via-mbms/{transactionId},Deletes a delivery via MBMS resource for a given SCS/AS  a service Id and a transcation Id.
+get,{apiRoot}/3gpp-monitoring-event/v1/{scsAsId}/subscriptions,Read all or queried active subscriptions for the SCS/AS.
+post,{apiRoot}/3gpp-monitoring-event/v1/{scsAsId}/subscriptions,Creates a new subscription resource for monitoring event notification.
+get,{apiRoot}/3gpp-monitoring-event/v1/{scsAsId}/subscriptions/{subscriptionId},Read an active subscriptions for the SCS/AS and the subscription Id.
+put,{apiRoot}/3gpp-monitoring-event/v1/{scsAsId}/subscriptions/{subscriptionId},Updates/replaces an existing subscription resource.
+patch,{apiRoot}/3gpp-monitoring-event/v1/{scsAsId}/subscriptions/{subscriptionId},Modifies an existing subscription of monitoring event.
+delete,{apiRoot}/3gpp-monitoring-event/v1/{scsAsId}/subscriptions/{subscriptionId},Deletes an already existing monitoring event subscription.
+post,{apiRoot}/,Deliver a received MSIDN-less MO SMS from the SCEF to the SCS/AS.
+get,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations,Read all NIDD configuration resources for a given SCS/AS.
+post,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations,Create a new NIDD configuration resource.
+get,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId},Read an NIDD configuration resource.
+patch,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId},Modify an existing NIDD configuration resource.
+delete,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId},Delete an existing NIDD configuration resource.
+get,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/downlink-data-deliveries,Read all pending NIDD downlink data delivery resources related to a particular NIDD configuration resource.
+post,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/downlink-data-deliveries,Create an NIDD downlink data delivery resource related to a particular NIDD configuration resource.
+get,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/downlink-data-deliveries/{downlinkDataDeliveryId},Read pending NIDD downlink data delivery resource.
+put,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/downlink-data-deliveries/{downlinkDataDeliveryId},Replace an NIDD downlink data delivery resource.
+patch,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/downlink-data-deliveries/{downlinkDataDeliveryId},Modify an existing Individual NIDD downlink data delivery resource.
+delete,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/downlink-data-deliveries/{downlinkDataDeliveryId},Delete an NIDD downlink data delivery resource.
+get,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/rds-ports,Read all RDS ManagePort Configurations.
+get,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/rds-ports/{portId},Read an Individual ManagePort Configuration resource to query port numbers.
+put,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/rds-ports/{portId},Create a new Individual ManagePort Configuration resource to reserve port numbers.
+delete,{apiRoot}/3gpp-nidd/v1/{scsAsId}/configurations/{configurationId}/rds-ports/{portId},Delete an Individual ManagePort Configuration resource to release port numbers.
+get,{apiRoot}/3gpp-network-parameter-configuration/v1/{scsAsId}/configurations,Read all of the active configurations for the SCS/AS.
+post,{apiRoot}/3gpp-network-parameter-configuration/v1/{scsAsId}/configurations,Creates a new configuration resource for network parameter configuration.
+get,{apiRoot}/3gpp-network-parameter-configuration/v1/{scsAsId}/configurations/{configurationId},Read an active configuration for the SCS/AS and the configuration Id.
+put,{apiRoot}/3gpp-network-parameter-configuration/v1/{scsAsId}/configurations/{configurationId},Updates/replaces an existing configuration resource.
+patch,{apiRoot}/3gpp-network-parameter-configuration/v1/{scsAsId}/configurations/{configurationId},Updates/replaces an existing configuration resource.
+delete,{apiRoot}/3gpp-network-parameter-configuration/v1/{scsAsId}/configurations/{configurationId},Deletes an already existing configuration.
+get,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions,Read all or queried PFDs for a given SCS/AS.
+post,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions,Create PFDs for a given SCS/AS and one or more external Application Identifier(s).
+get,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions/{transactionId},Read all PFDs for a given SCS/AS and a transaction for one or more external Application Identifier(s).
+put,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions/{transactionId},Update PFDs for a given SCS/AS and a transaction for one or more external Application Identifier(s).
+patch,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions/{transactionId},Modify an existing PFD Management Transaction resource.
+delete,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions/{transactionId},Delete PFDs for a given SCS/AS and a transaction for one or more external Application Identifier(s).
+get,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions/{transactionId}/applications/{appId},Read PFDs at individual application level.
+put,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions/{transactionId}/applications/{appId},Update PFDs at individual application level.
+patch,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions/{transactionId}/applications/{appId},Update PFDs at individual application level.
+delete,{apiRoot}/3gpp-pfd-management/v1/{scsAsId}/transactions/{transactionId}/applications/{appId},Delete PFDs at individual application level.
+get,{apiRoot}/3gpp-racs-pp/v1/{scsAsId}/provisionings,Read all RACS parameter provisionings for a given AF.
+post,{apiRoot}/3gpp-racs-pp/v1/{scsAsId}/provisionings,Create a new RACS parameter provisioning.
+get,{apiRoot}/3gpp-racs-pp/v1/{scsAsId}/provisionings/{provisioningId},Read an existing RACS parameter provisioning.
+patch,{apiRoot}/3gpp-racs-pp/v1/{scsAsId}/provisionings/{provisioningId},Modify some properties in an existing RACS parameter provisioning.
+put,{apiRoot}/3gpp-racs-pp/v1/{scsAsId}/provisionings/{provisioningId},Modify all properties in an existing RACS parameter provisioning.
+delete,{apiRoot}/3gpp-racs-pp/v1/{scsAsId}/provisionings/{provisioningId},Delete a RACS parameter provisioning.
+get,{apiRoot}/3gpp-net-stat-report/v1/{scsAsId}/subscriptions,Read all network status reporting subscription resources for a given SCS/AS.
+post,{apiRoot}/3gpp-net-stat-report/v1/{scsAsId}/subscriptions,Create a new network status reporting subscription resource.
+get,{apiRoot}/3gpp-net-stat-report/v1/{scsAsId}/subscriptions/{subscriptionId},Read an active network status reporting subscription resource.
+put,{apiRoot}/3gpp-net-stat-report/v1/{scsAsId}/subscriptions/{subscriptionId},Modify an existing subscription resource to update a subscription.
+patch,{apiRoot}/3gpp-net-stat-report/v1/{scsAsId}/subscriptions/{subscriptionId},Modify an existing Individual Network Status Reporting Subscription resource.
+delete,{apiRoot}/3gpp-net-stat-report/v1/{scsAsId}/subscriptions/{subscriptionId},Delete an existing continuous network status reporting subscription resource.
+get,{apiRoot}/3gpp-bdt/v1/{scsAsId}/subscriptions,Fetch all active background data transfer subscription resources for a given SCS/AS.
+post,{apiRoot}/3gpp-bdt/v1/{scsAsId}/subscriptions,Creates a new background data transfer subscription resource.
+get,{apiRoot}/3gpp-bdt/v1/{scsAsId}/subscriptions/{subscriptionId},Read a background data transfer subscription resource.
+put,{apiRoot}/3gpp-bdt/v1/{scsAsId}/subscriptions/{subscriptionId},Update a background data transfer subscription resource for negotiation of background data transfer policy.
+patch,{apiRoot}/3gpp-bdt/v1/{scsAsId}/subscriptions/{subscriptionId},Modify a background data transfer subscription resource to select one of the transfer policies offered by the SCEF.
+delete,{apiRoot}/3gpp-bdt/v1/{scsAsId}/subscriptions/{subscriptionId},Delete a background data transfer resource.
+post,{apiRoot}/aef-security/v1/check-authentication,Check authentication.
+post,{apiRoot}/aef-security/v1/revoke-authorization,Revoke authorization.
+get,{apiRoot}/access-control-policy/v1/accessControlPolicyList/{serviceApiId},Retrieves the access control policy list.
+post,{apiRoot}/api-invoker-management/v1/onboardedInvokers,Creates a new individual API Invoker profile.
+delete,{apiRoot}/api-invoker-management/v1/onboardedInvokers/{onboardingId},Deletes an individual API Invoker.
+put,{apiRoot}/api-invoker-management/v1/onboardedInvokers/{onboardingId},Updates an individual API invoker details.
+patch,{apiRoot}/api-invoker-management/v1/onboardedInvokers/{onboardingId},Modify an individual API invoker details.
+post,{apiRoot}/api-provider-management/v1/registrations,Registers a new API Provider domain with API provider domain functions profiles.
+delete,{apiRoot}/api-provider-management/v1/registrations/{registrationId},Deregisters API provider domain by deleting API provider domain and functions.
+put,{apiRoot}/api-provider-management/v1/registrations/{registrationId},Updates an API provider domain's registration details.
+patch,{apiRoot}/api-provider-management/v1/registrations/{registrationId},Modify an individual API provider details.
+get,{apiRoot}/logs/v1/apiInvocationLogs,Query and retrieve service API invocation logs stored on the CAPIF core function.
+get,{apiRoot}/service-apis/v1/allServiceAPIs,Discover published service APIs and retrieve a collection of APIs according to certain filter criteria.
+post,{apiRoot}/capif-events/v1/{subscriberId}/subscriptions,Creates a new individual CAPIF Event Subscription.
+delete,{apiRoot}/capif-events/v1/{subscriberId}/subscriptions/{subscriptionId},Deletes an individual CAPIF Event Subscription.
+post,{apiRoot}/api-invocation-logs/v1/{aefId}/logs,Creates a new log entry for service API invocations.
+post,{apiRoot}/published-apis/v1/{apfId}/service-apis,Publish a new API.
+get,{apiRoot}/published-apis/v1/{apfId}/service-apis,Retrieve all published APIs.
+get,{apiRoot}/published-apis/v1/{apfId}/service-apis/{serviceApiId},Retrieve a published service API.
+put,{apiRoot}/published-apis/v1/{apfId}/service-apis/{serviceApiId},Update a published service API.
+patch,{apiRoot}/published-apis/v1/{apfId}/service-apis/{serviceApiId},Modify an existing published service API.
+delete,{apiRoot}/published-apis/v1/{apfId}/service-apis/{serviceApiId},Unpublish a published service API.
+get,{apiRoot}/capif-routing-info/v1/service-apis/{serviceApiId},Retrieves the API routing information.
+get,{apiRoot}/capif-security/v1/trustedInvokers/{apiInvokerId},
+put,{apiRoot}/capif-security/v1/trustedInvokers/{apiInvokerId},
+delete,{apiRoot}/capif-security/v1/trustedInvokers/{apiInvokerId},
+post,{apiRoot}/capif-security/v1/trustedInvokers/{apiInvokerId}/update,
+post,{apiRoot}/capif-security/v1/trustedInvokers/{apiInvokerId}/delete,
+post,{apiRoot}/capif-security/v1/securities/{securityId}/token,
+post,{apiRoot}/naf-auth/v1/request-auth,UAV authentication
+post,{apiRoot}/nnef-authentication/v1/uav-authentications,UAV authentication
+post,{apiRoot}/uae-c2opmode-mngt/v1/initiate,Request the provisioning of C2 Operation Mode configuration information for a UAS (i.e. pair of UAV and UAV-C).
+get,{apiRoot}/uae-uav-status/v1/subscriptions,Retrieve all the active real-time UAV status subscriptions managed by the UAE Server.
+post,{apiRoot}/uae-uav-status/v1/subscriptions,Request the creation of a subscription to real-time UAV status reporting.
+get,{apiRoot}/uae-uav-status/v1/subscriptions/{subscriptionId},Retrieve a real-time UAV status subscription resource.
+put,{apiRoot}/uae-uav-status/v1/subscriptions/{subscriptionId},Request the update of an existing real-time UAV status subscription.
+delete,{apiRoot}/uae-uav-status/v1/subscriptions/{subscriptionId},Request the deletion of an existing real-time UAV status subscription.
+post,{apiRoot}/nbsp-gba/v1/bootstrapping-info-retrieval,Retrieve Bootstrapping Info from GBA BSF from NAF
+post,{apiRoot}/nbsp-gba/v1/push-info-retrieval,Retrieve Push Info from GBA BSF from Push-NAF
+post,{apiRoot}/vae-app-req/v1/application-requirements,VAE_Application_Requirements resource create service Operation
+get,{apiRoot}/vae-app-req/v1/application-requirements/{requirementId},VAE Application Requirement resource read service Operation
+delete,{apiRoot}/vae-app-req/v1/application-requirements/{requirementId},VAE Application Requirement resource delete service Operation
+post,{apiRoot}/vae-dynamic-group/v1/group-configurations,VAE_Dynamice_Group resource create service Operation
+get,{apiRoot}/vae-dynamic-group/v1/group-configurations/{configId},VAE Group Configuration resource read service Operation
+delete,{apiRoot}/vae-dynamic-group/v1/group-configurations/{configId},VAE Group Configuration resource delete service Operation
+post,{apiRoot}/vae-file-distribution/v1/file-distributions,VAE File Distributions resource create service Operation
+get,{apiRoot}/vae-file-distribution/v1/file-distributions/{distributionId},Get an existing individual file distribution resource
+delete,{apiRoot}/vae-file-distribution/v1/file-distributions/{distributionId},VAE File Distribution resource delete service Operation
+post,{apiRoot}/vae-hdmap-dynamic-info/v1/subscriptions,VAE_HDMapDynamicInfo resource create service Operation
+get,{apiRoot}/vae-hdmap-dynamic-info/v1/subscriptions/{subscriptionId},VAE HdMap DynamicInfo Subscription resource read service Operation
+delete,{apiRoot}/vae-hdmap-dynamic-info/v1/subscriptions/{subscriptionId},VAE HdMap DynamicInfo Subscription resource delete service Operation
+post,{apiRoot}/vae-message-delivery/v1/subscriptions,Create a new Individual Message Delivery Data Subscription resource
+get,{apiRoot}/vae-message-delivery/v1/subscriptions/{subscriptionId},Get an existing individual Message Delivery Subscription resource
+delete,{apiRoot}/vae-message-delivery/v1/subscriptions/{subscriptionId},Delete an individual Message Delivery Subscription resource
+post,{apiRoot}/vae-message-delivery/v1/subscriptions/{subscriptionId}/message-deliveries,VAE Message delivery resource create service Operation
+get,{apiRoot}/vae-message-delivery/v1/subscriptions/{subscriptionId}/message-deliveries/{dlDeliveryId},VAE Message delivery resource Read service Operation
+delete,{apiRoot}/vae-message-delivery/v1/subscriptions/{subscriptionId}/message-deliveries/{dlDeliveryId},VAE Message delivery resource delete service Operation
+post,{apiRoot}/vae-pc5-prov-req/v1/subscriptions,VAE_PC5 Provisioning Requirement resource create service Operation
+get,{apiRoot}/vae-pc5-prov-req/v1/subscriptions/{subscriptionId},VAE PC5 Provisioning Requirement Subscription resource read service Operation
+put,{apiRoot}/vae-pc5-prov-req/v1/subscriptions/{subscriptionId},Updates/replaces an existing subscription resource
+delete,{apiRoot}/vae-pc5-prov-req/v1/subscriptions/{subscriptionId},VAE PC5 Provisioning Requirement Subscription resource delete service Operation
+get,{apiRoot}/vae-service-continuity/v1/geo-areas/{geoId},VAE service continuity query service operation
+post,{apiRoot}/vae-session-Oriented-service/v1/subscriptions,VAE_SessionOrientedService resource create service Operation
+get,{apiRoot}/vae-session-Oriented-service/v1/subscriptions/{subscriptionId},VAE Session Oriented Service Subscription resource read service Operation
+put,{apiRoot}/vae-session-Oriented-service/v1/subscriptions/{subscriptionId},Updates/replaces an existing subscription resource
+delete,{apiRoot}/vae-session-Oriented-service/v1/subscriptions/{subscriptionId},VAE Session Oriented Service Subscription resource delete service Operation
+post,{apiRoot}/vae-v2v-config-req/v1/configurations,VAE V2V Configuration resource create service Operation
+get,{apiRoot}/vae-v2v-config-req/v1/configurations/{configurationId},VAE V2V Configuration resource read service Operation
+put,{apiRoot}/vae-v2v-config-req/v1/configurations/{configurationId},Updates/replaces an existing configuration resource
+delete,{apiRoot}/vae-v2v-config-req/v1/configurations/{configurationId},VAE V2V Configuration resource delete service Operation
+post,{apiRoot}/nsmf-pdusession/v1/sm-contexts,Create SM Context
+post,{apiRoot}/nsmf-pdusession/v1/sm-contexts/{smContextRef}/retrieve,Retrieve SM Context
+post,{apiRoot}/nsmf-pdusession/v1/sm-contexts/{smContextRef}/modify,Update SM Context
+post,{apiRoot}/nsmf-pdusession/v1/sm-contexts/{smContextRef}/release,Release SM Context
+post,{apiRoot}/nsmf-pdusession/v1/sm-contexts/{smContextRef}/send-mo-data,Send MO Data
+post,{apiRoot}/nsmf-pdusession/v1/pdu-sessions,Create
+post,{apiRoot}/nsmf-pdusession/v1/pdu-sessions/{pduSessionRef}/modify,Update (initiated by V-SMF or I-SMF)
+post,{apiRoot}/nsmf-pdusession/v1/pdu-sessions/{pduSessionRef}/release,Release
+post,{apiRoot}/nsmf-pdusession/v1/pdu-sessions/{pduSessionRef}/retrieve,Retrieve
+post,{apiRoot}/nsmf-pdusession/v1/pdu-sessions/{pduSessionRef}/transfer-mo-data,Transfer MO Data
+post,{apiRoot}/nudm-ee/v1/{ueIdentity}/ee-subscriptions,Subscribe
+delete,{apiRoot}/nudm-ee/v1/{ueIdentity}/ee-subscriptions/{subscriptionId},Unsubscribe
+patch,{apiRoot}/nudm-ee/v1/{ueIdentity}/ee-subscriptions/{subscriptionId},Patch
+get,{apiRoot}/nudm-mt/v1/{supi},Query Information for the UE
+post,{apiRoot}/nudm-mt/v1/{supi}/loc-info/provide-loc-info,Provides the UE's 5GS location information
+post,{apiRoot}/nudm-niddau/v1/{ueIdentity}/authorize,Authorize the NIDD configuration request.
+patch,{apiRoot}/nudm-pp/v1/{ueId}/pp-data,provision parameters
+put,{apiRoot}/nudm-pp/v1/5g-vn-groups/{extGroupId},create a 5G VN Group
+delete,{apiRoot}/nudm-pp/v1/5g-vn-groups/{extGroupId},delete a 5G VN Group
+patch,{apiRoot}/nudm-pp/v1/5g-vn-groups/{extGroupId},modify a 5G VN Group
+get,{apiRoot}/nudm-pp/v1/5g-vn-groups/{extGroupId},get 5G VN Group
+put,{apiRoot}/nudm-pp/v1/{ueId}/pp-data-store/{afInstanceId},Create a Provisioning Parameter Data Entry
+delete,{apiRoot}/nudm-pp/v1/{ueId}/pp-data-store/{afInstanceId},Delete a Provisioning Parameter Data Entry
+get,{apiRoot}/nudm-pp/v1/{ueId}/pp-data-store/{afInstanceId},get Parameter Provisioning Data Entry
+post,{apiRoot}/nudm-rsds/v1/{ueIdentity}/sm-delivery-status,Report the SM Delivery Status
+get,{apiRoot}/nudm-sdm/v2/{supi},retrieve multiple data sets
+get,{apiRoot}/nudm-sdm/v2/{supi}/nssai,retrieve a UE's subscribed NSSAI
+get,{apiRoot}/nudm-sdm/v2/{supi}/ue-context-in-amf-data,retrieve a UE's UE Context In AMF Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/am-data,retrieve a UE's Access and Mobility Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/am-data/ecr-data,retrieve a UE's subscribed Enhanced Coverage Restriction Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/smf-select-data,retrieve a UE's SMF Selection Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/ue-context-in-smf-data,retrieve a UE's UE Context In SMF Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/ue-context-in-smsf-data,retrieve a UE's UE Context In SMSF Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/trace-data,retrieve a UE's Trace Configuration Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/sm-data,retrieve a UE's Session Management Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/sms-data,retrieve a UE's SMS Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/sms-mng-data,retrieve a UE's SMS Management Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{ueId}/lcs-privacy-data,retrieve a UE's LCS Privacy Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/lcs-mo-data,retrieve a UE's LCS Mobile Originated Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/lcs-bca-data,retrieve a UE's LCS Broadcast Assistance Data Types Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/v2x-data,retrieve a UE's V2X Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/prose-data,retrieve a UE's ProSe Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/5mbs-data,retrieve a UE's 5MBS Subscription Data
+get,{apiRoot}/nudm-sdm/v2/{supi}/uc-data,retrieve a UE's User Consent Subscription Data
+post,{apiRoot}/nudm-sdm/v2/{ueId}/sdm-subscriptions,subscribe to notifications
+delete,{apiRoot}/nudm-sdm/v2/{ueId}/sdm-subscriptions/{subscriptionId},unsubscribe from notifications
+patch,{apiRoot}/nudm-sdm/v2/{ueId}/sdm-subscriptions/{subscriptionId},modify the subscription
+get,{apiRoot}/nudm-sdm/v2/{ueId}/id-translation-result,retrieve a UE's SUPI or GPSI
+put,{apiRoot}/nudm-sdm/v2/{supi}/am-data/sor-ack,Nudm_Sdm Info service operation
+put,{apiRoot}/nudm-sdm/v2/{supi}/am-data/upu-ack,Nudm_Sdm Info for UPU service operation
+put,{apiRoot}/nudm-sdm/v2/{supi}/am-data/subscribed-snssais-ack,Nudm_Sdm Info operation for S-NSSAIs acknowledgement
+put,{apiRoot}/nudm-sdm/v2/{supi}/am-data/cag-ack,Nudm_Sdm Info operation for CAG acknowledgement
+post,{apiRoot}/nudm-sdm/v2/{supi}/am-data/update-sor,Nudm_Sdm custom operation to trigger SOR info update
+get,{apiRoot}/nudm-sdm/v2/shared-data,retrieve shared data
+post,{apiRoot}/nudm-sdm/v2/shared-data-subscriptions,subscribe to notifications for shared data
+delete,{apiRoot}/nudm-sdm/v2/shared-data-subscriptions/{subscriptionId},unsubscribe from notifications for shared data
+patch,{apiRoot}/nudm-sdm/v2/shared-data-subscriptions/{subscriptionId},modify the subscription
+get,{apiRoot}/nudm-sdm/v2/group-data/group-identifiers,Mapping of Group Identifiers
+get,{apiRoot}/nudm-sdm/v2/shared-data/{sharedDataId},retrieve the individual shared data
+get,{apiRoot}/nudm-sdm/v2/multiple-identifiers,Mapping of UE Identifiers
+post,{apiRoot}/nudm-ssau/v1/{ueIdentity}/{serviceType}/authorize,Authorization for the Service specific parameters in the request.
+post,{apiRoot}/nudm-ssau/v1/{ueIdentity}/{serviceType}/remove,Remove the authorization of specific service's configuration.
+post,{apiRoot}/nudm-ueau/v1/{supiOrSuci}/security-information/generate-auth-data,Generate authentication data for the UE
+get,{apiRoot}/nudm-ueau/v1/{supiOrSuci}/security-information-rg,Get authentication data for the FN-RG
+post,{apiRoot}/nudm-ueau/v1/{supi}/auth-events,Create a new confirmation event
+post,{apiRoot}/nudm-ueau/v1/{supi}/hss-security-information/{hssAuthType}/generate-av,Generate authentication data for the UE in EPS or IMS domain
+put,{apiRoot}/nudm-ueau/v1/{supi}/auth-events/{authEventId},Deletes the authentication result in the UDM
+post,{apiRoot}/nudm-ueau/v1/{supi}/gba-security-information/generate-av,Generate authentication data for the UE in GBA domain
+post,{apiRoot}/nudm-ueau/v1/{supiOrSuci}/prose-security-information/generate-av,Generate authentication data for ProSe
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations,retrieve UE registration data sets
+post,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/send-routing-info-sm,Retreive addressing information for SMS delivery
+put,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-3gpp-access,register as AMF for 3GPP access
+patch,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-3gpp-access,Update a parameter in the AMF registration for 3GPP access
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-3gpp-access,retrieve the AMF registration for 3GPP access information
+post,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-3gpp-access/dereg-amf,trigger AMF for 3GPP access deregistration
+post,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-3gpp-access/pei-update,Updates the PEI in the 3GPP access registration context
+post,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-3gpp-access/roaming-info-update,Update the Roaming Information
+put,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-non-3gpp-access,register as AMF for non-3GPP access
+patch,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-non-3gpp-access,update a parameter in the AMF registration for non-3GPP access
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-non-3gpp-access,retrieve the AMF registration for non-3GPP access information
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smf-registrations,retrieve the SMF registration information
+put,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smf-registrations/{pduSessionId},register as SMF
+delete,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smf-registrations/{pduSessionId},delete an SMF registration
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smf-registrations/{pduSessionId},get an SMF registration
+patch,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smf-registrations/{pduSessionId},update a parameter in the SMF registration
+put,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smsf-3gpp-access,register as SMSF for 3GPP access
+delete,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smsf-3gpp-access,delete the SMSF registration for 3GPP access
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smsf-3gpp-access,retrieve the SMSF registration for 3GPP access information
+put,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smsf-non-3gpp-access,register as SMSF for non-3GPP access
+delete,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smsf-non-3gpp-access,delete SMSF registration for non 3GPP access
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/smsf-non-3gpp-access,retrieve the SMSF registration for non-3GPP access information
+put,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/ip-sm-gw,Register an IP-SM-GW
+delete,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/ip-sm-gw,Delete the IP-SM-GW registration
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/ip-sm-gw,Retrieve the IP-SM-GW registration information
+post,{apiRoot}/nudm-uecm/v1/restore-pcscf,Trigger the Restoration of the P-CSCF
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/location,retrieve the target UE's location information
+get,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/nwdaf-registrations,retrieve the NWDAF registration
+put,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/nwdaf-registrations/{nwdafRegistrationId},register as NWDAF
+delete,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/nwdaf-registrations/{nwdafRegistrationId},delete an NWDAF registration
+patch,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/nwdaf-registrations/{nwdafRegistrationId},Update a parameter in the NWDAF registration
+post,{apiRoot}/nudr-dr/v2/data-restoration-events,subscribe to data restoration notifications
+get,{apiRoot}/nudr-group-id-map/v1/nf-group-ids,Retrieves NF-Group IDs for provided Subscriber and NF types
+get,/subscription-data/{ueId}/authentication-data/authentication-subscription,Retrieves the authentication subscription data of a UE
+patch,/subscription-data/{ueId}/authentication-data/authentication-subscription,modify the authentication subscription data of a UE
+put,/subscription-data/{ueId}/authentication-data/authentication-status,To store the Authentication Status data of a UE
+get,/subscription-data/{ueId}/authentication-data/authentication-status,Retrieves the Authentication Status of a UE
+delete,/subscription-data/{ueId}/authentication-data/authentication-status,To remove the Authentication Status of a UE
+put,/subscription-data/{ueId}/authentication-data/authentication-status/{servingNetworkName},To store the individual Authentication Status data of a UE
+get,/subscription-data/{ueId}/authentication-data/authentication-status/{servingNetworkName},Retrieves the Individual Authentication Status of a UE
+delete,/subscription-data/{ueId}/authentication-data/authentication-status/{servingNetworkName},To remove the Individual Authentication Status of a UE
+put,/subscription-data/{ueId}/ue-update-confirmation-data/sor-data,To store the SoR acknowledgement information of a UE and ME support of SOR CMCI
+get,/subscription-data/{ueId}/ue-update-confirmation-data/sor-data,Retrieves the SoR acknowledgement information of a UE and ME support of SOR CMCI
+patch,/subscription-data/{ueId}/ue-update-confirmation-data/sor-data,Updates the ME support of SOR CMCI information of a UE
+put,/subscription-data/{ueId}/ue-update-confirmation-data/upu-data,To store the UPU acknowledgement information of a UE
+get,/subscription-data/{ueId}/ue-update-confirmation-data/upu-data,Retrieves the UPU acknowledgement information of a UE
+put,/subscription-data/{ueId}/ue-update-confirmation-data/subscribed-snssais,To store the NSSAI update acknowledgement information of a UE
+get,/subscription-data/{ueId}/ue-update-confirmation-data/subscribed-snssais,Retrieves the UPU acknowledgement information of a UE
+put,/subscription-data/{ueId}/ue-update-confirmation-data/subscribed-cag,To store the CAG update acknowledgement information of a UE
+get,/subscription-data/{ueId}/ue-update-confirmation-data/subscribed-cag,Retrieves the CAG acknowledgement information of a UE
+get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data,Retrieve multiple provisioned data sets of a UE
+get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/am-data,Retrieves the access and mobility subscription data of a UE
+get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/smf-selection-subscription-data,Retrieves the SMF selection subscription data of a UE
+get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/sm-data,Retrieves the Session Management subscription data of a UE
+get,/subscription-data/{ueId}/context-data/amf-3gpp-access,Retrieves the AMF context data of a UE using 3gpp access
+put,/subscription-data/{ueId}/context-data/amf-3gpp-access,To store the AMF context data of a UE using 3gpp access in the UDR
+patch,/subscription-data/{ueId}/context-data/amf-3gpp-access,To modify the AMF context data of a UE using 3gpp access in the UDR
+get,/subscription-data/{ueId}/context-data/amf-non-3gpp-access,Retrieves the AMF context data of a UE using non-3gpp access
+put,/subscription-data/{ueId}/context-data/amf-non-3gpp-access,To store the AMF context data of a UE using non-3gpp access in the UDR
+patch,/subscription-data/{ueId}/context-data/amf-non-3gpp-access,To modify the AMF context data of a UE using non 3gpp access in the UDR
+get,/subscription-data/{ueId}/context-data/smf-registrations,Retrieves the SMF registration list of a UE
+get,/subscription-data/{ueId}/context-data/smf-registrations/{pduSessionId},Retrieves the individual SMF registration of a UE
+put,/subscription-data/{ueId}/context-data/smf-registrations/{pduSessionId},To create an individual SMF context data of a UE in the UDR
+delete,/subscription-data/{ueId}/context-data/smf-registrations/{pduSessionId},To remove an individual SMF context data of a UE the UDR
+patch,/subscription-data/{ueId}/context-data/smf-registrations/{pduSessionId},To modify the SMF context data of a UE in the UDR
+get,/subscription-data/{ueId}/operator-specific-data,Retrieves the operator specific data of a UE
+patch,/subscription-data/{ueId}/operator-specific-data,To modify operator specific data of a UE
+put,/subscription-data/{ueId}/operator-specific-data,To create an operator-specific data resource of a UE
+delete,/subscription-data/{ueId}/operator-specific-data,To remove an operator-specific data resource of a UE
+put,/subscription-data/{ueId}/context-data/smsf-3gpp-access,Create the SMSF context data of a UE via 3GPP access
+delete,/subscription-data/{ueId}/context-data/smsf-3gpp-access,To remove the SMSF context data of a UE via 3GPP access
+get,/subscription-data/{ueId}/context-data/smsf-3gpp-access,Retrieves the SMSF context data of a UE using 3gpp access
+put,/subscription-data/{ueId}/context-data/smsf-non-3gpp-access,Create the SMSF context data of a UE via non-3GPP access
+delete,/subscription-data/{ueId}/context-data/smsf-non-3gpp-access,To remove the SMSF context data of a UE via non-3GPP access
+get,/subscription-data/{ueId}/context-data/smsf-non-3gpp-access,Retrieves the SMSF context data of a UE using non-3gpp access
+put,/subscription-data/{ueId}/context-data/ip-sm-gw,Create the IP-SM-GW context data of a UE
+delete,/subscription-data/{ueId}/context-data/ip-sm-gw,To remove the IP-SM-GW context data of a UE
+patch,/subscription-data/{ueId}/context-data/ip-sm-gw,Modify the IP-SM-GW context data of a UE
+get,/subscription-data/{ueId}/context-data/ip-sm-gw,Retrieves the IP-SM-GW context data of a UE
+put,/subscription-data/{ueId}/context-data/mwd,Create the Message Waiting Data of the UE
+delete,/subscription-data/{ueId}/context-data/mwd,To remove the Message Waiting Data of the UE
+patch,/subscription-data/{ueId}/context-data/mwd,Modify the Message Waiting Data of the UE
+get,/subscription-data/{ueId}/context-data/mwd,Retrieves the Message Waiting Data of the UE
+get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/sms-mng-data,Retrieves the SMS management subscription data of a UE
+get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/sms-data,Retrieves the SMS subscription data of a UE
+get,/subscription-data/{ueId}/pp-data,Read the profile of a given UE
+patch,/subscription-data/{ueId}/pp-data,modify the provisioned parameter data
+get,/subscription-data/{ueId}/pp-profile-data,Retrieves the parameter provision profile data of a UE
+put,/subscription-data/{ueId}/pp-data-store/{afInstanceId},create a Provisioning Parameter Data Entry
+delete,/subscription-data/{ueId}/pp-data-store/{afInstanceId},Delete a Provisioning Parameter Data Entry
+get,/subscription-data/{ueId}/pp-data-store/{afInstanceId},get a Parameter Provisioning Data Entry
+get,/subscription-data/{ueId}/pp-data-store,get a list of Parameter Provisioning Data Entries
+get,/subscription-data/{ueId}/context-data/ee-subscriptions,Retrieves the ee subscriptions of a UE
+post,/subscription-data/{ueId}/context-data/ee-subscriptions,Create individual EE subscription
+put,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId},Update an individual ee subscriptions of a UE
+delete,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId},Deletes a eeSubscription
+patch,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId},Modify an individual ee subscription of a UE
+get,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId},Retrieve a eeSubscription
+put,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/amf-subscriptions,Create AmfSubscriptions for an individual ee subscriptions of a UE
+delete,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/amf-subscriptions,Deletes AMF Subscription Info for an eeSubscription
+patch,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/amf-subscriptions,modify the AMF Subscription Info
+get,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/amf-subscriptions,Retrieve AMF subscription Info
+put,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/smf-subscriptions,Create SMF Subscription Info
+delete,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/smf-subscriptions,Delete SMF Subscription Info
+patch,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/smf-subscriptions,Modify SMF Subscription Info
+get,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/smf-subscriptions,Retrieve SMF Subscription Info
+put,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/hss-subscriptions,Create HSS Subscription Info
+delete,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/hss-subscriptions,Delete HSS Subscription Info
+patch,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/hss-subscriptions,Modify HSS Subscription Info
+get,/subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}/hss-subscriptions,Retrieve HSS Subscription Info
+get,/subscription-data/group-data/{ueGroupId}/ee-subscriptions,Retrieves the ee subscriptions of a group of UEs or any UE
+post,/subscription-data/group-data/{ueGroupId}/ee-subscriptions,Create individual EE subscription for a group of UEs or any UE
+put,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId},Update an individual ee subscription of a group of UEs or any UE
+delete,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId},Deletes a eeSubscription for a group of UEs or any UE
+patch,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId},Modify an individual ee subscription for a group of a UEs
+get,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId},Retrieve a individual eeSubscription for a group of UEs or any UE
+get,/subscription-data/group-data/{ueGroupId}/ee-profile-data,Retrieves the ee profile data profile data of a group or anyUE
+get,/subscription-data/{ueId}/ee-profile-data,Retrieves the ee profile data of a UE
+get,/subscription-data/{ueId}/context-data/sdm-subscriptions,Retrieves the sdm subscriptions of a UE
+post,/subscription-data/{ueId}/context-data/sdm-subscriptions,Create individual sdm subscription
+put,/subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId},Update an individual sdm subscriptions of a UE
+delete,/subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId},Deletes a sdmsubscriptions
+patch,/subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId},Modify an individual sdm subscription
+get,/subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId},Retrieves a individual sdmSubscription identified by subsId
+put,/subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId}/hss-sdm-subscriptions,Create HSS SDM Subscription Info
+delete,/subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId}/hss-sdm-subscriptions,Delete HSS SDM Subscription Info
+patch,/subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId}/hss-sdm-subscriptions,Modify HSS SDM Subscription Info
+get,/subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId}/hss-sdm-subscriptions,Retrieve HSS SDM Subscription Info
+get,/subscription-data/shared-data,retrieve shared data
+get,/subscription-data/shared-data/{sharedDataId},retrieve individual shared data
+post,/subscription-data/subs-to-notify,Subscription data subscriptions
+get,/subscription-data/subs-to-notify,Retrieves the list of subscriptions
+delete,/subscription-data/subs-to-notify,Deletes subscriptions identified by a given ue-id parameter
+delete,/subscription-data/subs-to-notify/{subsId},Deletes a subscriptionDataSubscriptions
+patch,/subscription-data/subs-to-notify/{subsId},Modify an individual subscriptionDataSubscription
+get,/subscription-data/subs-to-notify/{subsId},Retrieves a individual subscriptionDataSubscription identified by subsId
+get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/trace-data,Retrieves the trace configuration data of a UE
+get,/subscription-data/{ueId}/identity-data,Retrieve identity data by SUPI or GPSI
+get,/subscription-data/{ueId}/operator-determined-barring-data,Retrieve ODB Data data by SUPI or GPSI
+get,/subscription-data/{ueId}/context-data,Retrieve multiple context data sets of a UE
+get,/subscription-data/group-data/group-identifiers,Mapping of Group Identifiers
+get,/subscription-data/group-data/5g-vn-groups,Retrieves the data of a 5G VN Group
+put,/subscription-data/group-data/5g-vn-groups/{externalGroupId},Create an individual 5G VN Grouop
+delete,/subscription-data/group-data/5g-vn-groups/{externalGroupId},Deletes the 5GVnGroup
+patch,/subscription-data/group-data/5g-vn-groups/{externalGroupId},modify the 5GVnGroup
+get,/subscription-data/group-data/5g-vn-groups/{externalGroupId},Retrieve a 5GVnGroup configuration
+get,/subscription-data/{ueId}/lcs-privacy-data,Retrieves the LCS Privacy subscription data of a UE
+get,/subscription-data/{ueId}/lcs-mo-data,Retrieves the LCS Mobile Originated subscription data of a UE
+get,/subscription-data/{ueId}/nidd-authorization-data,Retrieve NIDD Authorization Data GPSI or External Group identifier
+get,/subscription-data/{ueId}/coverage-restriction-data,Retrieves the subscribed enhanced Coverage Restriction Data of a UE
+get,/subscription-data/{ueId}/context-data/location,Retrieves the UE's Location Information
+get,/subscription-data/{ueId}/v2x-data,Retrieves the subscribed V2X Data of a UE
+get,/subscription-data/{ueId}/prose-data,Retrieves the subscribed ProSe service Data of a UE
+get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/lcs-bca-data,Retrieves the LCS Broadcast Assistance subscription data of a UE
+get,/subscription-data/group-data/5g-vn-groups/internal,Retrieves the data of 5G VN Group
+get,/subscription-data/group-data/5g-vn-groups/pp-profile-data,Retrieves the parameter provision profile data for 5G VN Group
+put,/subscription-data/{ueId}/context-data/nidd-authorizations,Create NIDD Authorization Info
+delete,/subscription-data/{ueId}/context-data/nidd-authorizations,Delete NIDD Authorization Info
+patch,/subscription-data/{ueId}/context-data/nidd-authorizations,Modify NIDD Authorization Info
+get,/subscription-data/{ueId}/context-data/nidd-authorizations,Retrieve NIDD Authorization Info
+get,/subscription-data/{ueId}/5mbs-data,Retrieves the 5mbs subscription data of a UE
+get,/subscription-data/{ueId},Retrieve multiple subscribed data sets of a UE
+get,/subscription-data/{ueId}/service-specific-authorization-data/{serviceType},Retrieve ServiceSpecific Authorization Data
+put,/subscription-data/{ueId}/context-data/service-specific-authorizations/{serviceType},Create Service Specific Authorization Info
+delete,/subscription-data/{ueId}/context-data/service-specific-authorizations/{serviceType},Delete Service Specific Authorization Info
+patch,/subscription-data/{ueId}/context-data/service-specific-authorizations/{serviceType},Modify Service Specific Authorization Info
+get,/subscription-data/{ueId}/context-data/service-specific-authorizations/{serviceType},Retrieve Service Specific Authorization Info
+put,/subscription-data/{ueId}/context-data/roaming-information,Update the Roaming Information of the EPC domain
+get,/subscription-data/{ueId}/context-data/roaming-information,Retrieves the Roaming Information of the EPC domain
+put,/subscription-data/{ueId}/context-data/pei-info,Update the PEI Information of the 5GC/EPC domains
+get,/subscription-data/{ueId}/context-data/pei-info,Retrieves the PEI Information of the 5GC/EPC domains
+put,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/amf-subscriptions,Create AmfSubscriptions for a group of UEs or any UE
+delete,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/amf-subscriptions,Deletes AMF Subscription Info for an eeSubscription for a group of UEs or any UE
+patch,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/amf-subscriptions,modify the AMF Subscription Info
+get,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/amf-subscriptions,Retrieve AMF subscription Info for a group of UEs or any UE
+put,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/smf-subscriptions,Create SMF Subscription Info for a group of UEs or any YE
+delete,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/smf-subscriptions,Delete SMF Subscription Info for a group of UEs or any UE
+patch,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/smf-subscriptions,Modify SMF Subscription Info for a group of UEs or any UE
+get,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/smf-subscriptions,Retrieve SMF Subscription Info for a group of UEs or any UE
+put,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/hss-subscriptions,Create HSS Subscription Info for a group of UEs
+delete,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/hss-subscriptions,Delete HSS Subscription Info
+patch,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/hss-subscriptions,Modify HSS Subscription Info
+get,/subscription-data/group-data/{ueGroupId}/ee-subscriptions/{subsId}/hss-subscriptions,Retrieve HSS Subscription Info
+get,/subscription-data/{ueId}/uc-data,Retrieves the subscribed User Consent Data of a UE
+post,{apiRoot}/npcf-am-policy-control/v1/policies,Create individual AM policy association.
+get,{apiRoot}/npcf-am-policy-control/v1/policies/{polAssoId},Read individual AM policy association.
+delete,{apiRoot}/npcf-am-policy-control/v1/policies/{polAssoId},Delete individual AM policy association.
+post,{apiRoot}/npcf-am-policy-control/v1/policies/{polAssoId}/update,Report observed event triggers and obtain updated policies for an individual AM policy association.
+post,{apiRoot}/nsmf-event-exposure/v1/subscriptions,Create an individual subscription for event notifications from the SMF
+get,{apiRoot}/nsmf-event-exposure/v1/subscriptions/{subId},Read an individual subscription for event notifications from the SMF
+put,{apiRoot}/nsmf-event-exposure/v1/subscriptions/{subId},Replace an individual subscription for event notifications from the SMF
+delete,{apiRoot}/nsmf-event-exposure/v1/subscriptions/{subId},Delete an individual subscription for event notifications from the SMF
+post,{apiRoot}/nausf-sorprotection/v1/{supi}/ue-sor,
+post,{apiRoot}/nausf-auth/v1/ue-authentications,
+post,{apiRoot}/nausf-auth/v1/ue-authentications/deregister,
+put,{apiRoot}/nausf-auth/v1/ue-authentications/{authCtxId}/5g-aka-confirmation,
+delete,{apiRoot}/nausf-auth/v1/ue-authentications/{authCtxId}/5g-aka-confirmation,Deletes the authentication result in the UDM
+post,{apiRoot}/nausf-auth/v1/ue-authentications/{authCtxId}/eap-session,
+delete,{apiRoot}/nausf-auth/v1/ue-authentications/{authCtxId}/eap-session,Deletes the authentication result in the UDM
+post,{apiRoot}/nausf-auth/v1/rg-authentications,
+post,{apiRoot}/nausf-auth/v1/prose-authentications,
+post,{apiRoot}/nausf-auth/v1/prose-authentications/{authCtxId}/prose-auth,
+delete,{apiRoot}/nausf-auth/v1/prose-authentications/{authCtxId}/prose-auth,Deletes the authentication result in the UDM
+post,{apiRoot}/nausf-upuprotection/v1/{supi}/ue-upu,
+post,/oauth2/token,Access Token Request
+get,/bootstrapping,Bootstrapping Info Request
+get,{apiRoot}/nnrf-disc/v1/nf-instances,Search a collection of NF Instances
+get,{apiRoot}/nnrf-disc/v1/searches/{searchId},
+get,{apiRoot}/nnrf-disc/v1/searches/{searchId}/complete,
+get,{apiRoot}/nnrf-disc/v1/scp-domain-routing-info,
+post,{apiRoot}/nnrf-disc/v1/scp-domain-routing-info-subs,Create a new subscription
+delete,{apiRoot}/nnrf-disc/v1/scp-domain-routing-info-subs/{subscriptionID},Deletes a subscription
+get,{apiRoot}/nnrf-nfm/v1/nf-instances,Retrieves a collection of NF Instances
+options,{apiRoot}/nnrf-nfm/v1/nf-instances,Discover communication options supported by NRF for NF Instances
+get,{apiRoot}/nnrf-nfm/v1/nf-instances/{nfInstanceID},Read the profile of a given NF Instance
+put,{apiRoot}/nnrf-nfm/v1/nf-instances/{nfInstanceID},Register a new NF Instance
+patch,{apiRoot}/nnrf-nfm/v1/nf-instances/{nfInstanceID},Update NF Instance profile
+delete,{apiRoot}/nnrf-nfm/v1/nf-instances/{nfInstanceID},Deregisters a given NF Instance
+post,{apiRoot}/nnrf-nfm/v1/subscriptions,Create a new subscription
+patch,{apiRoot}/nnrf-nfm/v1/subscriptions/{subscriptionID},Updates a subscription
+delete,{apiRoot}/nnrf-nfm/v1/subscriptions/{subscriptionID},Deletes a subscription
+get,{apiRoot}/n5g-eir-eic/v1/equipment-status,Retrieves the status of the UE
+post,{apiRoot}/npcf-smpolicycontrol/v1/sm-policies,Create a new Individual SM Policy
+get,{apiRoot}/npcf-smpolicycontrol/v1/sm-policies/{smPolicyId},Read an Individual SM Policy
+post,{apiRoot}/npcf-smpolicycontrol/v1/sm-policies/{smPolicyId}/update,Update an existing Individual SM Policy
+post,{apiRoot}/npcf-smpolicycontrol/v1/sm-policies/{smPolicyId}/delete,Delete an existing Individual SM Policy
+post,{apiRoot}/npcf-policyauthorization/v1/app-sessions,Creates a new Individual Application Session Context resource
+post,{apiRoot}/npcf-policyauthorization/v1/app-sessions/pcscf-restoration,Indicates P-CSCF restoration and does not create an Individual Application Session Context
+get,{apiRoot}/npcf-policyauthorization/v1/app-sessions/{appSessionId},Reads an existing Individual Application Session Context
+patch,{apiRoot}/npcf-policyauthorization/v1/app-sessions/{appSessionId},Modifies an existing Individual Application Session Context
+post,{apiRoot}/npcf-policyauthorization/v1/app-sessions/{appSessionId}/delete,Deletes an existing Individual Application Session Context
+put,{apiRoot}/npcf-policyauthorization/v1/app-sessions/{appSessionId}/events-subscription,creates or modifies an Events Subscription subresource
+delete,{apiRoot}/npcf-policyauthorization/v1/app-sessions/{appSessionId}/events-subscription,deletes the Events Subscription subresource
+post,{apiRoot}/ngmlc-loc/v1/provide-location,Request Location of an UE
+post,{apiRoot}/ngmlc-loc/v1/cancel-location,request cancellation of periodic or triggered location
+post,{apiRoot}/ngmlc-loc/v1/location-update,update UE location information
+post,{apiRoot}/ngmlc-loc/v1/loc-update-subs,subscribe to notifications of UE location information
+post,{apiRoot}/naf-eventexposure/v1/subscriptions,Creates a new Individual Application Event Exposure Subscription resource
+get,{apiRoot}/naf-eventexposure/v1/subscriptions/{subscriptionId},Reads an existing Individual Application Event Subscription
+put,{apiRoot}/naf-eventexposure/v1/subscriptions/{subscriptionId},Modifies an existing Individual Application Event Subscription 
+delete,{apiRoot}/naf-eventexposure/v1/subscriptions/{subscriptionId},Cancels an existing Individual Application Event Subscription 
+put,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId},Namf_Communication CreateUEContext service Operation
+post,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/release,Namf_Communication ReleaseUEContext service Operation
+post,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/assign-ebi,Namf_Communication EBI Assignment service Operation
+post,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/transfer,Namf_Communication UEContextTransfer service Operation
+post,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/transfer-update,Namf_Communication RegistrationStatusUpdate service Operation
+post,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/relocate,Namf_Communication RelocateUEContext service Operation
+post,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/cancel-relocate,Namf_Communication CancelRelocateUEContext service Operation
+post,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/n1-n2-messages,Namf_Communication N1N2 Message Transfer (UE Specific) service Operation
+post,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/n1-n2-messages/subscriptions,Namf_Communication N1N2 Message Subscribe (UE Specific) service Operation
+delete,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/n1-n2-messages/subscriptions/{subscriptionId},Namf_Communication N1N2 Message UnSubscribe (UE Specific) service Operation
+post,{apiRoot}/namf-comm/v1/non-ue-n2-messages/transfer,Namf_Communication Non UE N2 Message Transfer service Operation
+post,{apiRoot}/namf-comm/v1/non-ue-n2-messages/subscriptions,Namf_Communication Non UE N2 Info Subscribe service Operation
+delete,{apiRoot}/namf-comm/v1/non-ue-n2-messages/subscriptions/{n2NotifySubscriptionId},Namf_Communication Non UE N2 Info UnSubscribe service Operation
+post,{apiRoot}/namf-comm/v1/subscriptions,Namf_Communication AMF Status Change Subscribe service Operation
+delete,{apiRoot}/namf-comm/v1/subscriptions/{subscriptionId},Namf_Communication AMF Status Change UnSubscribe service Operation
+put,{apiRoot}/namf-comm/v1/subscriptions/{subscriptionId},Namf_Communication AMF Status Change Subscribe Modify service Operation
+post,{apiRoot}/namf-evts/v1/subscriptions,Namf_EventExposure Subscribe service Operation
+patch,{apiRoot}/namf-evts/v1/subscriptions/{subscriptionId},Namf_EventExposure Subscribe Modify service Operation
+delete,{apiRoot}/namf-evts/v1/subscriptions/{subscriptionId},Namf_EventExposure Unsubscribe service Operation
+post,{apiRoot}/namf-loc/v1/{ueContextId}/provide-pos-info,Namf_Location ProvidePositioningInfo service Operation
+post,{apiRoot}/namf-loc/v1/{ueContextId}/provide-loc-info,Namf_Location ProvideLocationInfo service Operation
+post,{apiRoot}/namf-loc/v1/{ueContextId}/cancel-pos-info,Namf_Location CancelLocation service operation
+post,{apiRoot}/namf-mbs-bc/v1/mbs-contexts,Namf_MBSBroadcast ContextCreate service Operation
+delete,{apiRoot}/namf-mbs-bc/v1/mbs-contexts/{mbsContextRef},Namf_MBSBroadcast ContextDelete service Operation
+post,{apiRoot}/namf-mbs-bc/v1/mbs-contexts/{mbsContextRef}/update,Namf_MBSBroadcast ContextUpdate service Operation
+post,{apiRoot}/namf-mbs-comm/v1/n2-messages/transfer,Namf_MBSCommunication N2 Message Transfer service Operation
+get,{apiRoot}/namf-mt/v1/ue-contexts/{ueContextId},Namf_MT Provide Domain Selection Info service Operation
+put,{apiRoot}/namf-mt/v1/ue-contexts/{ueContextId}/ue-reachind,Namf_MT EnableUEReachability service Operation
+post,{apiRoot}/namf-mt/v1/ue-contexts,Namf_MT EnableGroupReachability service Operation
+post,{apiRoot}/namf-callback/v1/smContextStatus/{amfId}/{amfId}, N1N2Transfer Failure Notification
+get,{apiRoot}/namf-oam/v1/registered-ue-context, register ue to web
+get,/application-data/pfds,Retrieve PFDs for application identifier(s)
+get,/application-data/pfds/{appId},Retrieve the corresponding PFDs of the specified application identifier
+delete,/application-data/pfds/{appId},Delete the corresponding PFDs of the specified application identifier
+put,/application-data/pfds/{appId},Create or update the corresponding PFDs for the specified application identifier
+get,/application-data/influenceData,Retrieve Traffic Influence Data
+put,/application-data/influenceData/{influenceId},Create or update an individual Influence Data resource
+patch,/application-data/influenceData/{influenceId},Modify part of the properties of an individual Influence Data resource
+delete,/application-data/influenceData/{influenceId},Delete an individual Influence Data resource
+post,/application-data/influenceData/subs-to-notify,Create a new Individual Influence Data Subscription resource
+get,/application-data/influenceData/subs-to-notify,Read Influence Data Subscriptions
+get,/application-data/influenceData/subs-to-notify/{subscriptionId},Get an existing individual Influence Data Subscription resource
+put,/application-data/influenceData/subs-to-notify/{subscriptionId},Modify an existing individual Influence Data Subscription resource
+delete,/application-data/influenceData/subs-to-notify/{subscriptionId},Delete an individual Influence Data Subscription resource
+get,/application-data/bdtPolicyData,Retrieve applied BDT Policy Data
+put,/application-data/bdtPolicyData/{bdtPolicyId},Create an individual applied BDT Policy Data resource
+patch,/application-data/bdtPolicyData/{bdtPolicyId},Modify part of the properties of an individual Applied BDT Policy Data resource
+delete,/application-data/bdtPolicyData/{bdtPolicyId},Delete an individual Applied BDT Policy Data resource
+get,/application-data/iptvConfigData,Retrieve IPTV configuration Data
+put,/application-data/iptvConfigData/{configurationId},Create or update an individual IPTV configuration resource
+patch,/application-data/iptvConfigData/{configurationId},Partial update an individual IPTV configuration resource
+delete,/application-data/iptvConfigData/{configurationId},Delete an individual IPTV configuration resource
+get,/application-data/serviceParamData,Retrieve Service Parameter Data
+put,/application-data/serviceParamData/{serviceParamId},Create or update an individual Service Parameter Data resource
+patch,/application-data/serviceParamData/{serviceParamId},Modify part of the properties of an individual Service Parameter Data resource
+delete,/application-data/serviceParamData/{serviceParamId},Delete an individual Service Parameter Data resource
+get,/application-data/am-influence-data,Retrieve AM Influence Data
+put,/application-data/am-influence-data/{amInfluenceId},Create or update an individual AM Influence Data resource
+patch,/application-data/am-influence-data/{amInfluenceId},Modify part of the properties of an individual AM Influence Data resource
+delete,/application-data/am-influence-data/{amInfluenceId},Delete an individual AM Influence Data resource
+post,/application-data/subs-to-notify,Create a subscription to receive notification of application data changes
+get,/application-data/subs-to-notify,Read Application Data change Subscriptions
+put,/application-data/subs-to-notify/{subsId},Modify a subscription to receive notification of application data changes
+delete,/application-data/subs-to-notify/{subsId},Delete the individual Application Data subscription
+get,/application-data/subs-to-notify/{subsId},Get an existing individual Application Data Subscription resource
+get,/application-data/eas-deploy-data,Retrieve EAS Deployment Information Data
+get,/application-data/eas-deploy-data/{easDeployInfoId},Retrieve an individual EAS Deployment Data resource
+put,/application-data/eas-deploy-data/{easDeployInfoId},Create or update an individual EAS Deployment Data resource
+delete,/application-data/eas-deploy-data/{easDeployInfoId},Delete an individual EAS Deployment Data resource
+put,/exposure-data/{ueId}/access-and-mobility-data,Creates and updates the access and mobility exposure data for a UE
+get,/exposure-data/{ueId}/access-and-mobility-data,Retrieves the access and mobility exposure data for a UE
+delete,/exposure-data/{ueId}/access-and-mobility-data,Deletes the access and mobility exposure data for a UE
+patch,/exposure-data/{ueId}/access-and-mobility-data,Updates the access and mobility exposure data for a UE
+put,/exposure-data/{ueId}/session-management-data/{pduSessionId},Creates and updates the session management data for a UE and for an individual PDU session
+get,/exposure-data/{ueId}/session-management-data/{pduSessionId},Retrieves the session management data for a UE and for an individual PDU session
+delete,/exposure-data/{ueId}/session-management-data/{pduSessionId},Deletes the session management data for a UE and for an individual PDU session
+post,/exposure-data/subs-to-notify,Create a subscription to receive notification of exposure data changes
+put,/exposure-data/subs-to-notify/{subId},updates a subscription to receive notifications of exposure data changes
+delete,/exposure-data/subs-to-notify/{subId},Deletes the individual Exposure Data subscription
+get,/policy-data/ues/{ueId},Retrieve the policy data for a subscriber
+get,/policy-data/ues/{ueId}/am-data,Retrieves the access and mobility policy data for a subscriber
+get,/policy-data/ues/{ueId}/ue-policy-set,Retrieves the UE policy set data for a subscriber
+put,/policy-data/ues/{ueId}/ue-policy-set,Create or modify the UE policy set data for a subscriber
+patch,/policy-data/ues/{ueId}/ue-policy-set,Modify the UE policy set data for a subscriber
+get,/policy-data/ues/{ueId}/sm-data,Retrieves the session management policy data for a subscriber
+patch,/policy-data/ues/{ueId}/sm-data,Modify the session management policy data for a subscriber
+get,/policy-data/ues/{ueId}/sm-data/{usageMonId},Retrieve a usage monitoring resource
+put,/policy-data/ues/{ueId}/sm-data/{usageMonId},Create a usage monitoring resource
+delete,/policy-data/ues/{ueId}/sm-data/{usageMonId},Delete a usage monitoring resource
+get,/policy-data/sponsor-connectivity-data/{sponsorId},Retrieves the sponsored connectivity information for a given sponsorId
+get,/policy-data/bdt-data,Retrieves the BDT data collection
+get,/policy-data/bdt-data/{bdtReferenceId},Retrieves the BDT data information associated with a BDT reference Id
+put,/policy-data/bdt-data/{bdtReferenceId},Creates an BDT data resource associated with an BDT reference Id
+patch,/policy-data/bdt-data/{bdtReferenceId},Modifies an BDT data resource associated with an BDT reference Id
+delete,/policy-data/bdt-data/{bdtReferenceId},Deletes an BDT data resource associated with an BDT reference Id
+post,/policy-data/subs-to-notify,Create a subscription to receive notification of policy data changes
+put,/policy-data/subs-to-notify/{subsId},Modify a subscription to receive notification of policy data changes
+delete,/policy-data/subs-to-notify/{subsId},Delete the individual Policy Data subscription
+get,/policy-data/ues/{ueId}/operator-specific-data,Retrieve the operator specific policy data of an UE
+patch,/policy-data/ues/{ueId}/operator-specific-data,Modify the operator specific policy data of a UE
+put,/policy-data/ues/{ueId}/operator-specific-data,Create or modify the operator specific policy data of a UE
+delete,/policy-data/ues/{ueId}/operator-specific-data,When the feature OSDResource_Create_Delete is supported  delete OperatorSpecificData resource
+get,/policy-data/plmns/{plmnId}/ue-policy-set,Retrieve the UE policy set data for an H-PLMN
+get,/policy-data/slice-control-data/{snssai},Retrieves a network Slice specific policy control data resource
+patch,/policy-data/slice-control-data/{snssai},Modify a network Slice specific policy control data resource
+get,/policy-data/mbs-session-pol-data/{polSessionId},Retrieve MBS Session Policy Control Data for an MBS Session.
+get,{apiRoot}/nnwdaf-analyticsinfo/v1/analytics,Read a NWDAF Analytics
+get,{apiRoot}/nnwdaf-analyticsinfo/v1/context,Get context information related to analytics subscriptions.
+post,{apiRoot}/nnwdaf-datamanagement/v1/subscriptions,subscribe to notifications
+put,{apiRoot}/nnwdaf-datamanagement/v1/subscriptions/{subscriptionId},Update an existing Individual NWDAF Data Subscription.
+delete,{apiRoot}/nnwdaf-datamanagement/v1/subscriptions/{subscriptionId},unsubscribe from notifications
+post,{apiRoot}/nnwdaf-eventssubscription/v1/subscriptions,Create a new Individual NWDAF Events Subscription
+delete,{apiRoot}/nnwdaf-eventssubscription/v1/subscriptions/{subscriptionId},Delete an existing Individual NWDAF Events Subscription
+put,{apiRoot}/nnwdaf-eventssubscription/v1/subscriptions/{subscriptionId},Update an existing Individual NWDAF Events Subscription
+post,{apiRoot}/nnwdaf-eventssubscription/v1/transfers,Provide information about requested analytics subscriptions transfer and potentially create a new Individual NWDAF Event Subscription Transfer resource.
+delete,{apiRoot}/nnwdaf-eventssubscription/v1/transfers/{transferId},Delete an existing Individual NWDAF Event Subscription Transfer
+put,{apiRoot}/nnwdaf-eventssubscription/v1/transfers/{transferId},Update an existing Individual NWDAF Event Subscription Transfer
+post,{apiRoot}/nnwdaf-mlmodelprovision/v1/subscriptions,Create a new Individual NWDAF ML Model Provision Subscription resource.
+put,{apiRoot}/nnwdaf-mlmodelprovision/v1/subscriptions/{subscriptionId},update an existing Individual NWDAF ML Model Provision Subscription
+delete,{apiRoot}/nnwdaf-mlmodelprovision/v1/subscriptions/{subscriptionId},Delete an existing Individual NWDAF ML Model Provision Subscription.
+post,{apiRoot}/nbsf-management/v1/pcfBindings,Create a new Individual PCF for a PDU Session binding information
+get,{apiRoot}/nbsf-management/v1/pcfBindings,Read PCF for a PDU Session Bindings information
+delete,{apiRoot}/nbsf-management/v1/pcfBindings/{bindingId},Delete an existing Individual PCF for a PDU Session Binding information
+patch,{apiRoot}/nbsf-management/v1/pcfBindings/{bindingId},Update an existing Individual PCF for a PDU Session Binding information
+post,{apiRoot}/nbsf-management/v1/subscriptions,Create an individual subscription for event notifications from the BSF
+put,{apiRoot}/nbsf-management/v1/subscriptions/{subId},Replace an individual subscription for event notifications from the BSF
+delete,{apiRoot}/nbsf-management/v1/subscriptions/{subId},Delete an individual subscription for event notifications from the BSF
+post,{apiRoot}/nbsf-management/v1/pcf-ue-bindings,Create a new Individual PCF for a UE binding information
+get,{apiRoot}/nbsf-management/v1/pcf-ue-bindings,Read PCF for a UE Bindings information
+delete,{apiRoot}/nbsf-management/v1/pcf-ue-bindings/{bindingId},Delete an existing Individual PCF for a UE Binding information
+patch,{apiRoot}/nbsf-management/v1/pcf-ue-bindings/{bindingId},Update an existing Individual PCF for a UE Binding information
+post,{apiRoot}/nbsf-management/v1/pcf-mbs-bindings,Create a new Individual PCF for an MBS Session binding.
+get,{apiRoot}/nbsf-management/v1/pcf-mbs-bindings,Retrieve an existing PCF for an MBS Session binding.
+patch,{apiRoot}/nbsf-management/v1/pcf-mbs-bindings/{bindingId},Request the modification of an existing Individual PCF for an MBS Session Binding resource.
+delete,{apiRoot}/nbsf-management/v1/pcf-mbs-bindings/{bindingId},Request the deletion of an existing Individual PCF for an MBS Session Binding.
+get,{apiRoot}/3gpp-5glan-pp/v1/{afId}/subscriptions,read all of the active subscriptions for the AF
+post,{apiRoot}/3gpp-5glan-pp/v1/{afId}/subscriptions,Creates a new subscription resource
+get,{apiRoot}/3gpp-5glan-pp/v1/{afId}/subscriptions/{subscriptionId},read an active subscription for the AF and the subscription Id
+put,{apiRoot}/3gpp-5glan-pp/v1/{afId}/subscriptions/{subscriptionId},Fully updates/replaces an existing subscription resource
+patch,{apiRoot}/3gpp-5glan-pp/v1/{afId}/subscriptions/{subscriptionId},Partial updates an existing subscription resource
+delete,{apiRoot}/3gpp-5glan-pp/v1/{afId}/subscriptions/{subscriptionId},Deletes an already existing subscription
+get,{apiRoot}/3gpp-acs-pp/v1/{afId}/subscriptions,read all of the active subscriptions for the AF
+post,{apiRoot}/3gpp-acs-pp/v1/{afId}/subscriptions,Creates a new subscription resource
+get,{apiRoot}/3gpp-acs-pp/v1/{afId}/subscriptions/{subscriptionId},read an active subscription for the AF and the subscription Id
+put,{apiRoot}/3gpp-acs-pp/v1/{afId}/subscriptions/{subscriptionId},Fully updates/replaces an existing subscription resource
+patch,{apiRoot}/3gpp-acs-pp/v1/{afId}/subscriptions/{subscriptionId},Partial modifies an existing subscription resource.
+delete,{apiRoot}/3gpp-acs-pp/v1/{afId}/subscriptions/{subscriptionId},Deletes an already existing subscription
+post,{apiRoot}/3gpp-akma/v1/retrieve,Retrieve AKMA Application Key Information.
+get,{apiRoot}/3gpp-am-influence/v1/{afId}/subscriptions,Read all of the active subscriptions for the AF.
+post,{apiRoot}/3gpp-am-influence/v1/{afId}/subscriptions,Create a new subscription to AM influence.
+get,{apiRoot}/3gpp-am-influence/v1/{afId}/subscriptions/{subscriptionId},Read an active subscription identified by the subscriptionId.
+put,{apiRoot}/3gpp-am-influence/v1/{afId}/subscriptions/{subscriptionId},Update/Replace an existing subscription resource.
+patch,{apiRoot}/3gpp-am-influence/v1/{afId}/subscriptions/{subscriptionId},Update/Replace an existing subscription resource.
+delete,{apiRoot}/3gpp-am-influence/v1/{afId}/subscriptions/{subscriptionId},Delete an existing subscription.
+post,{apiRoot}/3gpp-am-policyauthorization/v1/{afId}/app-am-contexts,Creates a new Individual application AM Context resource
+get,{apiRoot}/3gpp-am-policyauthorization/v1/{afId}/app-am-contexts/{appAmContextId},read an existing Individual application AM context
+patch,{apiRoot}/3gpp-am-policyauthorization/v1/{afId}/app-am-contexts/{appAmContextId},partial modifies an existing Individual application AM context
+delete,{apiRoot}/3gpp-am-policyauthorization/v1/{afId}/app-am-contexts/{appAmContextId},Deletes an existing Individual Application AM Context
+put,{apiRoot}/3gpp-am-policyauthorization/v1/{afId}/app-am-contexts/{appAmContextId}/events-subscription,creates or modifies an AM Policy Events Subscription sub-resource.
+delete,{apiRoot}/3gpp-am-policyauthorization/v1/{afId}/app-am-contexts/{appAmContextId}/events-subscription,deletes the AM Policy Events Subscription sub-resource
+get,{apiRoot}/3gpp-analyticsexposure/v1/{afId}/subscriptions,read all of the active subscriptions for the AF
+post,{apiRoot}/3gpp-analyticsexposure/v1/{afId}/subscriptions,Creates a new subscription resource
+get,{apiRoot}/3gpp-analyticsexposure/v1/{afId}/subscriptions/{subscriptionId},read an active subscription for the AF and the subscription Id
+put,{apiRoot}/3gpp-analyticsexposure/v1/{afId}/subscriptions/{subscriptionId},Fully updates/replaces an existing subscription resource
+delete,{apiRoot}/3gpp-analyticsexposure/v1/{afId}/subscriptions/{subscriptionId},Deletes an already existing subscription
+post,{apiRoot}/3gpp-analyticsexposure/v1/{afId}/fetch,Fetch analytics information
+get,{apiRoot}/3gpp-applying-bdt-policy/v1/{afId}/subscriptions,read all of the active subscriptions for the AF
+post,{apiRoot}/3gpp-applying-bdt-policy/v1/{afId}/subscriptions,Creates a new subscription resource
+get,{apiRoot}/3gpp-applying-bdt-policy/v1/{afId}/subscriptions/{subscriptionId},read an active subscriptions for the SCS/AS and the subscription Id
+patch,{apiRoot}/3gpp-applying-bdt-policy/v1/{afId}/subscriptions/{subscriptionId},Partial updates/replaces an existing subscription resource
+delete,{apiRoot}/3gpp-applying-bdt-policy/v1/{afId}/subscriptions/{subscriptionId},Deletes an already existing subscription
+get,{apiRoot}/3gpp-asti/v1/{afId}/configurations,read all of the active configurations of 5G access stratum time distribution for the AF
+post,{apiRoot}/3gpp-asti/v1/{afId}/configurations,Creates a new configuration resource
+post,{apiRoot}/3gpp-asti/v1/{afId}/configurations/retrieve,Request the status of the 5G access stratum time distribution configuration for a list of UEs.
+get,{apiRoot}/3gpp-asti/v1/{afId}/configurations/{configId},Reads an active configuration for the AF and the configuration Id
+put,{apiRoot}/3gpp-asti/v1/{afId}/configurations/{configId},Modifies an active configuration for the AF and the configuration Id
+delete,{apiRoot}/3gpp-asti/v1/{afId}/configurations/{configId},Deletes an already existing configuration
+post,{apiRoot}/3gpp-data-reporting/v1/sessions,Create a new Data Reporting Session.
+get,{apiRoot}/3gpp-data-reporting/v1/sessions/{sessionId},Request the retrieval of an existing Individual Data Reporting Session resource.
+put,{apiRoot}/3gpp-data-reporting/v1/sessions/{sessionId},Request the update of an existing Individual Data Reporting Session resource.
+delete,{apiRoot}/3gpp-data-reporting/v1/sessions/{sessionId},Deletes an already existing Data Reporting Session resource.
+post,{apiRoot}/3gpp-data-reporting/v1/sessions/{sessionId}/report,Report collected UE data.
+post,{apiRoot}/3gpp-data-reporting-provisioning/v1/sessions,Create a new Data Reporting Provisioning Session.
+get,{apiRoot}/3gpp-data-reporting-provisioning/v1/sessions/{sessionId},Request the retrieval of an existing Individual Data Reporting Provisioning Session resource.
+delete,{apiRoot}/3gpp-data-reporting-provisioning/v1/sessions/{sessionId},Deletes an already existing Individual Data Reporting Provisioning Session resource.
+post,{apiRoot}/3gpp-data-reporting-provisioning/v1/sessions/{sessionId}/configurations,Create a new Data Reporting Configuration resource.
+get,{apiRoot}/3gpp-data-reporting-provisioning/v1/sessions/{sessionId}/configurations/{configurationId},Request the retrieval of an existing Individual Data Reporting Configuration resource.
+put,{apiRoot}/3gpp-data-reporting-provisioning/v1/sessions/{sessionId}/configurations/{configurationId},Request to update an existing Individual Data Reporting Configuration resource.
+patch,{apiRoot}/3gpp-data-reporting-provisioning/v1/sessions/{sessionId}/configurations/{configurationId},Request to modify an existing Individual Data Reporting Configuration resource.
+delete,{apiRoot}/3gpp-data-reporting-provisioning/v1/sessions/{sessionId}/configurations/{configurationId},Deletes an already existing Data Reporting Configuration resource.
+get,{apiRoot}/3gpp-eas-deployment/v1/{afId}/eas-deployment-info,Read all EAS Deployment information for a given AF
+post,{apiRoot}/3gpp-eas-deployment/v1/{afId}/eas-deployment-info,Create a new Individual EAS Deployment information resource.
+get,{apiRoot}/3gpp-eas-deployment/v1/{afId}/eas-deployment-info/{easDeployInfoId},Read an active Individual EAS Deployment Information resource for the AF
+put,{apiRoot}/3gpp-eas-deployment/v1/{afId}/eas-deployment-info/{easDeployInfoId},Fully updates/replaces an existing resource
+delete,{apiRoot}/3gpp-eas-deployment/v1/{afId}/eas-deployment-info/{easDeployInfoId},Deletes an already existing EAS Deployment information resource
+post,{apiRoot}/3gpp-eas-deployment/v1/remove-edis,Remove EAS Deployment Information based on given criteria.
+get,{apiRoot}/3gpp-ecs-address-provision/v1/{afId}/configurations,Read all active configurations for a given AF
+post,{apiRoot}/3gpp-ecs-address-provision/v1/{afId}/configurations,Creates a new configuration resource
+get,{apiRoot}/3gpp-ecs-address-provision/v1/{afId}/configurations/{configurationId},Read an active resource for the AF and the configuration Id
+put,{apiRoot}/3gpp-ecs-address-provision/v1/{afId}/configurations/{configurationId},Fully updates/replaces an existing resource
+delete,{apiRoot}/3gpp-ecs-address-provision/v1/{afId}/configurations/{configurationId},Deletes an already existing configuration resource
+get,{apiRoot}/3gpp-iptvconfiguration/v1/{afId}/configurations,read all of the active configurations for the AF
+post,{apiRoot}/3gpp-iptvconfiguration/v1/{afId}/configurations,Creates a new configuration resource
+get,{apiRoot}/3gpp-iptvconfiguration/v1/{afId}/configurations/{configurationId},read an active configuration for the AF and the configuration Id
+put,{apiRoot}/3gpp-iptvconfiguration/v1/{afId}/configurations/{configurationId},Fully updates/replaces an existing configuration resource
+patch,{apiRoot}/3gpp-iptvconfiguration/v1/{afId}/configurations/{configurationId},Partial updates an existing configuration resource
+delete,{apiRoot}/3gpp-iptvconfiguration/v1/{afId}/configurations/{configurationId},Deletes an already existing configuration
+get,{apiRoot}/3gpp-lpi-pp/v1/{afId}/provisionedLpis,read all of the active LPI Parameters Provisioning resources for the AF
+post,{apiRoot}/3gpp-lpi-pp/v1/{afId}/provisionedLpis,Creates a new LPI Parameters Provisioning resource
+get,{apiRoot}/3gpp-lpi-pp/v1/{afId}/provisionedLpis/{provisionedLpiId},read an active LPI Parameters Provisioning resource for the AF and the provisioned LPI Id
+put,{apiRoot}/3gpp-lpi-pp/v1/{afId}/provisionedLpis/{provisionedLpiId},Fully updates/replaces an existing LPI Parameters Provisioning resource
+patch,{apiRoot}/3gpp-lpi-pp/v1/{afId}/provisionedLpis/{provisionedLpiId},Partially modifies an existing LPI Parameters Provisioning resource.
+delete,{apiRoot}/3gpp-lpi-pp/v1/{afId}/provisionedLpis/{provisionedLpiId},Deletes an already existing LPI Parameters Provisioning resource
+post,{apiRoot}/3gpp-mbs-session/v1/mbs-sessions,Request the creation of a new MBS Session.
+patch,{apiRoot}/3gpp-mbs-session/v1/mbs-sessions/{mbsSessionRef},Request the modification of an existing Individual MBS Session resource.
+delete,{apiRoot}/3gpp-mbs-session/v1/mbs-sessions/{mbsSessionRef},Request the Deletion of an existing Individual MBS Session resource.
+get,{apiRoot}/3gpp-mbs-session/v1/mbs-sessions/subscriptions,Retrieve all the active MBS Sessions subscriptions.
+post,{apiRoot}/3gpp-mbs-session/v1/mbs-sessions/subscriptions,Request the creation of a new Individual MBS Session subscription resource.
+get,{apiRoot}/3gpp-mbs-session/v1/mbs-sessions/subscriptions/{subscriptionId},Retrieve an existing Individual MBS Session Subscription resource.
+delete,{apiRoot}/3gpp-mbs-session/v1/mbs-sessions/subscriptions/{subscriptionId},Request the deletion of an existing Individual MBS Session subscription resource.
+get,{apiRoot}/3gpp-mbs-session/v1/mbs-pp,Request to retrieve all the active MBS Parameters Provisioning resources at the NEF.
+post,{apiRoot}/3gpp-mbs-session/v1/mbs-pp,Request the creation of a new MBS Parameters Provisioning.
+get,{apiRoot}/3gpp-mbs-session/v1/mbs-pp/{mbsPpId},Request to retrieve an existing Individual MBS Parameters Provisioning resource.
+put,{apiRoot}/3gpp-mbs-session/v1/mbs-pp/{mbsPpId},Request the update of an existing Individual MBS Parameters Provisioning resource.
+patch,{apiRoot}/3gpp-mbs-session/v1/mbs-pp/{mbsPpId},Request the modification of an existing Individual MBS Parameters Provisioning resource.
+delete,{apiRoot}/3gpp-mbs-session/v1/mbs-pp/{mbsPpId},Request the deletion of an existing Individual MBS Parameters Provisioning resource.
+post,{apiRoot}/3gpp-mbs-tmgi/v1/allocate,Request the allocation of TMGI(s) for new MBS session(s) or the refresh of the expiry time of already allocated TMGI(s).
+post,{apiRoot}/3gpp-mbs-tmgi/v1/deallocate,Request the deallocation of MBS TMGI(s).
+get,{apiRoot}/3gpp-mbs-ud-ingest/v1/sessions,Retrieve all the active MBS User Data Ingest Sessions managed by the NEF.
+post,{apiRoot}/3gpp-mbs-ud-ingest/v1/sessions,Request the creation of a new Individual MBS User Data Ingest Session resource.
+get,{apiRoot}/3gpp-mbs-ud-ingest/v1/sessions/{sessionId},Retrieve an existing Individual MBS User Data Ingest Session resource.
+put,{apiRoot}/3gpp-mbs-ud-ingest/v1/sessions/{sessionId},Request the update of an existing Individual MBS User Data Ingest Session resource.
+patch,{apiRoot}/3gpp-mbs-ud-ingest/v1/sessions/{sessionId},Request the modification of an existing Individual MBS User Data Ingest Session resource.
+delete,{apiRoot}/3gpp-mbs-ud-ingest/v1/sessions/{sessionId},Deletes an existing Individual MBS User Data Ingest Session resource.
+get,{apiRoot}/3gpp-mbs-ud-ingest/v1/status-subscriptions,Retrieve all the active MBS User Data Ingest Session Status Subscriptions resources managed by the NEF.
+post,{apiRoot}/3gpp-mbs-ud-ingest/v1/status-subscriptions,Creates a new Individual MBS User Data Ingest Session Status Subscription resource.
+get,{apiRoot}/3gpp-mbs-ud-ingest/v1/status-subscriptions/{subscriptionId},Retrieve an existing Individual MBS User Data Ingest Session Status Subscription resource.
+put,{apiRoot}/3gpp-mbs-ud-ingest/v1/status-subscriptions/{subscriptionId},Request the update of an existing Individual MBS User Data Ingest Session Status Subscription resource.
+patch,{apiRoot}/3gpp-mbs-ud-ingest/v1/status-subscriptions/{subscriptionId},Request the modification of an existing Individual MBS User Data Ingest Session Status Subscription resource.
+delete,{apiRoot}/3gpp-mbs-ud-ingest/v1/status-subscriptions/{subscriptionId},Deletes an existing Individual MBS User Data Ingest Session Status Subscription resource.
+get,{apiRoot}/3gpp-mbs-us/v1/mbs-user-services,Retrieve all the active MBS User Service resources managed by the NEF.
+post,{apiRoot}/3gpp-mbs-us/v1/mbs-user-services,Request the creation of a new Individual MBS User Service resource.
+get,{apiRoot}/3gpp-mbs-us/v1/mbs-user-services/{mbsUserServId},Retrieve an existing Individual MBS User Service resource.
+put,{apiRoot}/3gpp-mbs-us/v1/mbs-user-services/{mbsUserServId},Request the update of an existing Individual MBS User Service resource.
+patch,{apiRoot}/3gpp-mbs-us/v1/mbs-user-services/{mbsUserServId},Request the modification of an existing Individual MBS User Service resource.
+delete,{apiRoot}/3gpp-mbs-us/v1/mbs-user-services/{mbsUserServId},Deletes an existing Individual MBS User Service resource.
+post,{apiRoot}/3gpp-mo-lcs-notify/v1/,UE location information update notification
+get,{apiRoot}/3gpp-ms-event-exposure/v1/subscriptions,Retrieve all the active Media Streaming Event Exposure Subscription resources managed by the NEF.
+post,{apiRoot}/3gpp-ms-event-exposure/v1/subscriptions,Request the creation of a new Individual Media Streaming Event Exposure Subscription resource.
+get,{apiRoot}/3gpp-ms-event-exposure/v1/subscriptions/{subscriptionId},Retrieve an existing Individual Media Streaming Event Exposure Subscription resource.
+put,{apiRoot}/3gpp-ms-event-exposure/v1/subscriptions/{subscriptionId},Request the update of an existing Individual Media Streaming Event Exposure Subscription resource.
+delete,{apiRoot}/3gpp-ms-event-exposure/v1/subscriptions/{subscriptionId},Request the deletion of an existing Individual Media Streaming Event Exposure Subscription resource.
+post,{apiRoot}/,
+get,{apiRoot}/3gpp-service-parameter/v1/{afId}/subscriptions,read all of the active subscriptions for the AF
+post,{apiRoot}/3gpp-service-parameter/v1/{afId}/subscriptions,Creates a new subscription resource
+get,{apiRoot}/3gpp-service-parameter/v1/{afId}/subscriptions/{subscriptionId},read an active subscriptions for the SCS/AS and the subscription Id
+put,{apiRoot}/3gpp-service-parameter/v1/{afId}/subscriptions/{subscriptionId},Fully updates/replaces an existing subscription resource
+patch,{apiRoot}/3gpp-service-parameter/v1/{afId}/subscriptions/{subscriptionId},Partial updates/replaces an existing subscription resource
+delete,{apiRoot}/3gpp-service-parameter/v1/{afId}/subscriptions/{subscriptionId},Deletes an already existing subscription
+get,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions,read all of the active subscriptions for the AF
+post,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions,Creates a new subscription resource
+get,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions/{subscriptionId},read an active subscription for the AF and the subscription Id
+put,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions/{subscriptionId},Fully updates/replaces an existing subscription resource
+delete,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions/{subscriptionId},Deletes an already existing subscription
+get,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions/{subscriptionId}/configurations,read all of the active configurations for the AF
+post,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions/{subscriptionId}/configurations,Creates a new configuration resource
+get,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions/{subscriptionId}/configurations/{instanceReference},read an active subscription for the AF and the subscription Id
+put,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions/{subscriptionId}/configurations/{instanceReference},Fully updates/replaces an existing configuration resource
+delete,{apiRoot}/3gpp-time-sync/v1/{afId}/subscriptions/{subscriptionId}/configurations/{instanceReference},Deletes an already existing configuration
+get,{apiRoot}/3gpp-traffic-influence/v1/{afId}/subscriptions,read all of the active subscriptions for the AF
+post,{apiRoot}/3gpp-traffic-influence/v1/{afId}/subscriptions,Creates a new subscription resource
+get,{apiRoot}/3gpp-traffic-influence/v1/{afId}/subscriptions/{subscriptionId},read an active subscriptions for the SCS/AS and the subscription Id
+put,{apiRoot}/3gpp-traffic-influence/v1/{afId}/subscriptions/{subscriptionId},Fully updates/replaces an existing subscription resource
+patch,{apiRoot}/3gpp-traffic-influence/v1/{afId}/subscriptions/{subscriptionId},Partially updates/replaces an existing subscription resource
+delete,{apiRoot}/3gpp-traffic-influence/v1/{afId}/subscriptions/{subscriptionId},Deletes an already existing subscription
+post,{apiRoot}/3gpp-ueid/v1/retrieve,Retrieve AF specific UE ID.
+post,{apiRoot}/npcf-eventexposure/v1/subscriptions,Creates a new Individual Policy Control Events Subscription resource
+get,{apiRoot}/npcf-eventexposure/v1/subscriptions/{subscriptionId},Reads an existing Individual Policy Control Events Subscription
+put,{apiRoot}/npcf-eventexposure/v1/subscriptions/{subscriptionId},Modifies an existing Individual Policy Control Events Subscription 
+delete,{apiRoot}/npcf-eventexposure/v1/subscriptions/{subscriptionId},Cancels an existing Individual Policy Control Events Subscription 
+post,{apiRoot}/npcf-ue-policy-control/v1/policies,Create individual UE policy association.
+get,{apiRoot}/npcf-ue-policy-control/v1/policies/{polAssoId},Read individual UE policy association.
+delete,{apiRoot}/npcf-ue-policy-control/v1/policies/{polAssoId},Delete individual UE policy association.
+post,{apiRoot}/npcf-ue-policy-control/v1/policies/{polAssoId}/update,Report observed event triggers and possibly obtain updated policies for an individual UE policy association.
+post,{apiRoot}/nnssaaf-aiw/v1/authentications,Create authentication context
+put,{apiRoot}/nnssaaf-aiw/v1/authentications/{authCtxId},Confirm the authentication result
+post,{apiRoot}/nnssaaf-nssaa/v1/slice-authentications,Create slice authentication context
+put,{apiRoot}/nnssaaf-nssaa/v1/slice-authentications/{authCtxId},Confirm the slice authentication result
+put,{apiRoot}/nnssf-nssaiavailability/v1/nssai-availability/{nfId},Updates/replaces the NSSF with the S-NSSAIs the NF service consumer (e.g AMF)supports per TA
+patch,{apiRoot}/nnssf-nssaiavailability/v1/nssai-availability/{nfId},Updates an already existing S-NSSAIs per TA provided by the NF service consumer (e.g AMF)
+delete,{apiRoot}/nnssf-nssaiavailability/v1/nssai-availability/{nfId},Deletes an already existing S-NSSAIs per TA provided by the NF service consumer (e.g AMF)
+post,{apiRoot}/nnssf-nssaiavailability/v1/nssai-availability/subscriptions,Creates subscriptions for notification about updates to NSSAI availability information
+delete,{apiRoot}/nnssf-nssaiavailability/v1/nssai-availability/subscriptions/{subscriptionId},Deletes an already existing NSSAI availability notification subscription
+patch,{apiRoot}/nnssf-nssaiavailability/v1/nssai-availability/subscriptions/{subscriptionId},updates an already existing NSSAI availability notification subscription
+options,{apiRoot}/nnssf-nssaiavailability/v1/nssai-availability,Discover communication options supported by NSSF for NSSAI Availability
+get,{apiRoot}/nnssf-nsselection/v2/network-slice-information,Retrieve the Network Slice Selection Information
+post,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions,Create
+patch,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions/{mbsSessionRef},Updates an individual MBS session resource in the MB-SMF.
+delete,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions/{mbsSessionRef},Deletes an individual MBS session resource in the MB-SMF.
+post,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions/contexts/update,ContextUpdate
+post,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions/subscriptions,StatusSubscribe creating a subscription
+patch,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions/subscriptions/{subscriptionId},StatusSubscribe to modify (update or renew) an individual subscription
+delete,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions/subscriptions/{subscriptionId},StatusUnSubscribe to unsubscribe from the Status Subscription
+post,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions/contexts/subscriptions,ContextStatusSubscribe creating a subscription
+patch,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions/contexts/subscriptions/{subscriptionId},ContextStatusSubscribe modifying an individual subscription
+delete,{apiRoot}/nmbsmf-mbssession/v1/mbs-sessions/contexts/subscriptions/{subscriptionId},ContextStatusUnSubscribe
+post,{apiRoot}/nmbsmf-tmgi/v1/tmgi,Allocate TMGIs
+delete,{apiRoot}/nmbsmf-tmgi/v1/tmgi,Deallocate one or more TMGIs
+post,{apiRoot}/npcf-am-policyauthorization/v1/app-am-contexts,Creates a new Individual Application AM Context resource
+get,{apiRoot}/npcf-am-policyauthorization/v1/app-am-contexts/{appAmContextId},Reads an existing Individual Application AM Context
+patch,{apiRoot}/npcf-am-policyauthorization/v1/app-am-contexts/{appAmContextId},Modifies an existing Individual Application AM Context
+delete,{apiRoot}/npcf-am-policyauthorization/v1/app-am-contexts/{appAmContextId},Deletes an existing Individual Application AM Context
+put,{apiRoot}/npcf-am-policyauthorization/v1/app-am-contexts/{appAmContextId}/events-subscription,creates or modifies an AM Policy Events Subscription subresource.
+delete,{apiRoot}/npcf-am-policyauthorization/v1/app-am-contexts/{appAmContextId}/events-subscription,deletes the AM Policy Events Subscription subresource
+post,{apiRoot}/naanf-akma/v1/register-anchorkey,Store AKMA related key material.
+post,{apiRoot}/naanf-akma/v1/retrieve-applicationkey,Request to retrieve AKMA Application Key information.
+post,{apiRoot}/naanf-akma/v1/remove-context,Request to remove the AKMA related key material.
+post,{apiRoot}/nnsacf-nsac/v1/slices/ues,Network Slice Admission Control on the Number of UEs
+post,{apiRoot}/nnsacf-nsac/v1/slices/pdus,Network Slice Admission Control on the number of PDU Sessions
+post,{apiRoot}/nnsacf-slice-ee/v1/subscriptions,Nnsacf_SliceEventExposure Subscribe service Operation
+patch,{apiRoot}/nnsacf-slice-ee/v1/subscriptions/{subscriptionId},Nnsacf_SliceEventExposure Subscribe partial modify service Operation
+put,{apiRoot}/nnsacf-slice-ee/v1/subscriptions/{subscriptionId},Nnsacf_SliceEventExposure Subscribe complete modify service Operation
+delete,{apiRoot}/nnsacf-slice-ee/v1/subscriptions/{subscriptionId},Nnsacf_SliceEventExposure Unsubscribe service Operation
+post,{apiRoot}/npcf-mbspolicyauth/v1/contexts,Request the creation of a new Individual MBS Application Session Context resource.
+get,{apiRoot}/npcf-mbspolicyauth/v1/contexts/{contextId},Read an existing Individual MBS Application Session Context resource.
+patch,{apiRoot}/npcf-mbspolicyauth/v1/contexts/{contextId},Request the modification of an existing Individual MBS Application Session Context resource.
+delete,{apiRoot}/npcf-mbspolicyauth/v1/contexts/{contextId},Request the deletion of an existing Individual MBS Application Session Context resource.
+post,{apiRoot}/npcf-mbspolicycontrol/v1/mbs-policies,Request the creation of a new MBS Policy Association.
+get,{apiRoot}/npcf-mbspolicycontrol/v1/mbs-policies/{mbsPolicyId},Read an Individual MBS Policy resource.
+delete,{apiRoot}/npcf-mbspolicycontrol/v1/mbs-policies/{mbsPolicyId},Deletes an existing Individual MBS Policy resource.
+post,{apiRoot}/npcf-mbspolicycontrol/v1/mbs-policies/{mbsPolicyId}/update,Request the update of an existing MBS Policy Association.
+post,{apiRoot}/msgg-l3gdelivery/v1/deliver-message,deliver message to Legacy 3GPP Message Gateway
+post,{apiRoot}/msgg-l3gdelivery/v1/deliver-report,deliver status report to Legacy 3GPP Message Gateway
+post,{apiRoot}/msgg-n3gdelivery/v1/deliver-message,deliver message to NON-3GPP Message Gateway
+post,{apiRoot}/msgg-n3gdelivery/v1/deliver-report,deliver status report to NON-3GPP Message Gateway
+post,{apiRoot}/msgs-asregistration/v1/registrations,Registers a new AS at a MSGin5G Server
+delete,{apiRoot}/msgs-asregistration/v1/registrations/{registrationId},Delete an existing AS registration at MSGin5G Server
+post,{apiRoot}/msgs-msgdelivery/v1/deliver-as-message,AS deliver message to MSGin5G Server
+post,{apiRoot}/msgs-msgdelivery/v1/deliver-ue-message,UE deliver message to MSGin5G Server
+post,{apiRoot}/msgs-msgdelivery/v1/deliver-report,AS or UE deliver status report to MSGin5G Server
+put,{apiRoot}/nsmsf-sms/v2/ue-contexts/{supi},Activate SMS Service for a given UE
+patch,{apiRoot}/nsmsf-sms/v2/ue-contexts/{supi},Update a parameter in the UE SMS Context in SMSF
+delete,{apiRoot}/nsmsf-sms/v2/ue-contexts/{supi},Deactivate SMS Service for a given UE
+post,{apiRoot}/nsmsf-sms/v2/ue-contexts/{supi}/sendsms,Send SMS payload for a given UE
+post,{apiRoot}/nsmsf-sms/v2/ue-contexts/{supi}/send-mt-sms,Send MT SMS payload for a given UE
+post,{apiRoot}/nnef-smcontext/v1/sm-contexts,Create SM Context
+post,{apiRoot}/nnef-smcontext/v1/sm-contexts/{smContextId}/release,Delete SM Context
+post,{apiRoot}/nnef-smcontext/v1/sm-contexts/{smContextId}/update,Update SM Context
+post,{apiRoot}/nnef-smcontext/v1/sm-contexts/{smContextId}/deliver,Deliver Uplink MO Data
+post,{apiRoot}/nnef-smservice/v1/sm-contexts/{supi}/sendsms,Send SMS payload for a given UE
+post,{apiRoot}/nsmf-nidd/v1/pdu-sessions/{pduSessionRef}/deliver,Delivery Service Operation
+post,{apiRoot}/nspaf-secured-packet/v1/{supi}/provide-secured-packet,request generation of a secured packet
+post,{apiRoot}/ss-events/v1/subscriptions,Creates a new individual SEAL Event Subscription.
+delete,{apiRoot}/ss-events/v1/subscriptions/{subscriptionId},Deletes an individual SEAL Event Subscription.
+patch,{apiRoot}/ss-events/v1/subscriptions/{subscriptionId},Modify an existing SEAL Event Subscription.
+put,{apiRoot}/ss-events/v1/subscriptions/{subscriptionId},Replace an existing SEAl event subscription.
+post,{apiRoot}/ss-gm/v1/group-documents,Creates a new VAL group document.
+get,{apiRoot}/ss-gm/v1/group-documents,Retrieves VAL group documents satisfying filter criteria
+get,{apiRoot}/ss-gm/v1/group-documents/{groupDocId},Retrieves VAL group information satisfying filter criteria.
+put,{apiRoot}/ss-gm/v1/group-documents/{groupDocId},Updates an individual VAL group document.
+delete,{apiRoot}/ss-gm/v1/group-documents/{groupDocId},Deletes a VAL Group.
+patch,{apiRoot}/ss-gm/v1/group-documents/{groupDocId},Modify an existing VAL Group document.
+get,{apiRoot}/ss-kir/v1/key-records,Retrieve key management information specific to VAL service.
+get,{apiRoot}/ss-lair/v1/location-retrievals,Retrieve the UE(s) information in an application defined proximity range of a location.
+post,{apiRoot}/ss-lr/v1/trigger-configurations,Creates a new location reporting configuration.
+get,{apiRoot}/ss-lr/v1/trigger-configurations/{configurationId},Retrieves an individual SEAL location reporting configuration information.
+put,{apiRoot}/ss-lr/v1/trigger-configurations/{configurationId},Updates an individual SEAL location reporting configuration.
+delete,{apiRoot}/ss-lr/v1/trigger-configurations/{configurationId},Deletes an individual SEAL location reporting configuration.
+patch,{apiRoot}/ss-lr/v1/trigger-configurations/{configurationId},Modify an existing SEAL Location Reporting Configuration.
+post,{apiRoot}/ss-nra/v1/multicast-subscriptions,Creates a new Individual Multicast Subscription resource
+get,{apiRoot}/ss-nra/v1/multicast-subscriptions/{multiSubId},Reads an existing Individual Multicast Subscription
+delete,{apiRoot}/ss-nra/v1/multicast-subscriptions/{multiSubId},Delete an existing Individual Multicast Subscription
+post,{apiRoot}/ss-nra/v1/unicast-subscriptions,Creates a new Individual Unicast Subscription resource
+get,{apiRoot}/ss-nra/v1/unicast-subscriptions/{uniSubId},Reads an existing Individual Unicast Subscription
+delete,{apiRoot}/ss-nra/v1/unicast-subscriptions/{uniSubId},Delete an existing Individual Unicast Subscription
+get,{apiRoot}/ss-nra/v1/tsc-stream-availability,Discover the TSC stream availability information.
+get,{apiRoot}/ss-nra/v1/tsc-streams,Retrieval of TSC stream data.
+get,{apiRoot}/ss-nra/v1/tsc-streams/{valStreamId},Reads an existing Individual TSC stream data information
+put,{apiRoot}/ss-nra/v1/tsc-streams/{valStreamId},Create a TSC stream identified by a VAL stream identifier.
+delete,{apiRoot}/ss-nra/v1/tsc-streams/{valStreamId},Delete an existing Individual TSC stream
+post,{apiRoot}/ss-nrm/v1/subscriptions,Create individual unicast monitoring subscription resource or obtain unicast QoS monitoring data for VAL UEs  VAL Group  or VAL Streams.
+delete,{apiRoot}/ss-nrm/v1/subscriptions/{subscriptionId},Remove an existing individual unicast monitoring subscription resource according to the subscriptionId.
+get,{apiRoot}/ss-nrm/v1/subscriptions/{subscriptionId},Read an existing individual unicast monitoring subscription resource according to the subscriptionId.
+put,{apiRoot}/ss-nrm/v1/subscriptions/{subscriptionId},Update an individual unicast monitoring subscription identified by the subscriptionId.
+patch,{apiRoot}/ss-nrm/v1/subscriptions/{subscriptionId},Modify an individual unicast monitoring subscription identified by the subscriptionId.
+post,{apiRoot}/ss-nsa/v1/request,request the network slice adaptation.
+get,{apiRoot}/ss-upr/v1/val-services,Retrieve VAL User or VAL UE profile information.
+get,{apiRoot}/nsoraf-sor/v1/{supi}/sor-information,retrieve the steering of roaming information for a UE
+put,{apiRoot}/nsoraf-sor/v1/{supi}/sor-information/sor-ack,SoR Acknowledgment Reception Notification
+get,{apiRoot}/nnef-pfdmanagement/v1/applications,Retrieve PFDs for all applications or for one or multiple applications with query parameter.
+post,{apiRoot}/nnef-pfdmanagement/v1/applications/partialpull,retrieve the PFD(s) by partial update
+get,{apiRoot}/nnef-pfdmanagement/v1/applications/{appId},Retrieve the PFD for an application.
+post,{apiRoot}/nnef-pfdmanagement/v1/subscriptions,Subscribe the notification of PFD changes.
+put,{apiRoot}/nnef-pfdmanagement/v1/subscriptions/{subscriptionId},Updates/replaces an existing subscription resource
+delete,{apiRoot}/nnef-pfdmanagement/v1/subscriptions/{subscriptionId},Delete a subscription of PFD change notification.
+post,{apiRoot}/npanf-prosekey/<apiVersion>/prose-keys/register,Register the Prose Key
+post,{apiRoot}/npanf-prosekey/<apiVersion>/prose-keys/retrieve,retrieve the prose key
+post,{apiRoot}/npcf-bdtpolicycontrol/v1/bdtpolicies,Create a new Individual BDT policy
+get,{apiRoot}/npcf-bdtpolicycontrol/v1/bdtpolicies/{bdtPolicyId},Read an Individual BDT policy
+patch,{apiRoot}/npcf-bdtpolicycontrol/v1/bdtpolicies/{bdtPolicyId},Update an Individual BDT policy
+put,{apiRoot}/n5g-ddnmf-disc/v1/{ueId}/announce-authorize/{discEntryId},Obtain the authorization to announce for a UE
+patch,{apiRoot}/n5g-ddnmf-disc/v1/{ueId}/announce-authorize/{discEntryId},Update the authorization for announcing for a UE
+put,{apiRoot}/n5g-ddnmf-disc/v1/{ueId}/monitor-authorize/{discEntryId},Obtain the authorization to monitor for a UE
+patch,{apiRoot}/n5g-ddnmf-disc/v1/{ueId}/monitor-authorize/{discEntryId},Update the authorization for monitoring for a UE
+put,{apiRoot}/n5g-ddnmf-disc/v1/{ueId}/discovery-authorize/{discEntryId},Obtain the authorization from the 5G DDNMF for a discoverer UE in the PLMN to operate Model B restricted discovery
+post,{apiRoot}/n5g-ddnmf-disc/v1/{ueId}/match-report,Obtain the information about the indicated discovery code from the 5G DDNMF
+patch,{apiRoot}/neasdf-baselinednspattern/v1/base-dns-patterns/{smfId}/{smfImplementationSegmentPaths},Updates the Baseline DNS Pattern
+put,{apiRoot}/neasdf-baselinednspattern/v1/base-dns-patterns/{smfId}/{smfImplementationSegmentPaths},Creates or Updates the Baseline DNS Pattern (complete replacement)
+delete,{apiRoot}/neasdf-baselinednspattern/v1/base-dns-patterns/{smfId}/{smfImplementationSegmentPaths},Deletes a Baseline DNS Pattern
+post,{apiRoot}/neasdf-dnscontext/v1/dns-contexts,Create
+delete,{apiRoot}/neasdf-dnscontext/v1/dns-contexts/{dnsContextId},Delete the DNS Context
+patch,{apiRoot}/neasdf-dnscontext/v1/dns-contexts/{dnsContextId},Updates the DNS context
+put,{apiRoot}/neasdf-dnscontext/v1/dns-contexts/{dnsContextId},Updates the DNS context (complete replacement)
+post,{apiRoot}/naf-prose/v1/authorize-discovery,Obtain the authorization of Discovery Request from 5G DDNMF for a UE
+post,{apiRoot}/naf-prose/v1/authorization-update-result,report the result of update of authorization information to revoke discovery  permissions relating to some other users in the NF consumer for Restricted ProSe Direct Discovery
+post,{apiRoot}/eecs-eesregistration/v1/registrations,Create a new EES Registration
+get,{apiRoot}/eecs-eesregistration/v1/registrations/{registrationId},Get an Individual EES Registration
+put,{apiRoot}/eecs-eesregistration/v1/registrations/{registrationId},Update an Individual EES Registration
+patch,{apiRoot}/eecs-eesregistration/v1/registrations/{registrationId},Modify an Individual EES Registration
+delete,{apiRoot}/eecs-eesregistration/v1/registrations/{registrationId},Delete an Individual EES Registration
+get,{apiRoot}/eecs-targeteesdiscovery/v1/ees-profiles,Read all EES Profiles
+post,{apiRoot}/eees-acrmgntevent/v1/subscriptions,Creates a new Individual ACR Management Events Subscription
+get,{apiRoot}/eees-acrmgntevent/v1/subscriptions,Read all ACR Management Events Subscriptions
+get,{apiRoot}/eees-acrmgntevent/v1/subscriptions/{subscriptionId},Read an Individual ACR Management Events Subscription
+put,{apiRoot}/eees-acrmgntevent/v1/subscriptions/{subscriptionId},Update an Individual ACR Management Events Subscription
+patch,{apiRoot}/eees-acrmgntevent/v1/subscriptions/{subscriptionId},Modify an Individual ACR Management Events Subscription
+delete,{apiRoot}/eees-acrmgntevent/v1/subscriptions/{subscriptionId},Delete an Individual ACR Management Events Subscription
+post,{apiRoot}/eees-acrstatus-update/v1/request-acrupdate,Request to update the information related to ACR (e.g. indicate the status of ACT  update the notification target address).
+post,{apiRoot}/eees-appclientinformation/v1/subscriptions,Creates a new Individual Application Client Information Subscriptions resource
+get,{apiRoot}/eees-appclientinformation/v1/subscriptions/{subscriptionId},Read an Individual Application Client Information Subscriptions resource
+put,{apiRoot}/eees-appclientinformation/v1/subscriptions/{subscriptionId},Update an Individual Application Client Information Subscriptions resource
+patch,{apiRoot}/eees-appclientinformation/v1/subscriptions/{subscriptionId},Modify an Individual Application Client Information Subscriptions resource
+delete,{apiRoot}/eees-appclientinformation/v1/subscriptions/{subscriptionId},Delete an Individual Application Client Information Subscriptions resource
+post,{apiRoot}/eees-easregistration/v1/registrations,Creates a new Individual EAS Registration resource
+get,{apiRoot}/eees-easregistration/v1/registrations/{registrationId},Read an Individual EAS Registration resource
+put,{apiRoot}/eees-easregistration/v1/registrations/{registrationId},Update an Individual EAS Registration resource
+patch,{apiRoot}/eees-easregistration/v1/registrations/{registrationId},Modify an Individual EAS Registration resource
+delete,{apiRoot}/eees-easregistration/v1/registrations/{registrationId},Delete an Individual EAS Registration resource
+post,{apiRoot}/eees-eeccontextreloc/v1/eec-contexts,Push EEC Context information
+get,{apiRoot}/eees-eeccontextreloc/v1/eec-contexts,Pull EEC Context information
+post,{apiRoot}/eees-eel-acr/v1/request-eelacr,Request the EES (e.g. S-EES) to handle all the operations of an ACR.
+get,{apiRoot}/eees-eel-acr/v1/subscriptions,Retrieve all the active ACT Status Subscriptions managed by the EES.
+post,{apiRoot}/eees-eel-acr/v1/subscriptions,Request the creation of a subscription to ACT status reporting.
+get,{apiRoot}/eees-eel-acr/v1/subscriptions/{subscriptionId},Retrieve an ACT status subscription resource.
+post,{apiRoot}/eees-session-with-qos/v1/sessions,Create a new Individual Session with QoS resource
+get,{apiRoot}/eees-session-with-qos/v1/sessions,Read all Sessions with QoS resource
+put,{apiRoot}/eees-session-with-qos/v1/sessions/{sessionId},Update an Individual Session with QoS resource
+patch,{apiRoot}/eees-session-with-qos/v1/sessions/{sessionId},Modify an Individual Session with QoS resource
+delete,{apiRoot}/eees-session-with-qos/v1/sessions/{sessionId},Delete an Individual Session with QoS resource
+get,{apiRoot}/eees-session-with-qos/v1/sessions/{sessionId},Read Individual Session with QoS resource
+post,{apiRoot}/eees-ueidentifier/v1/fetch,Fetch the identifier of an UE.
+post,{apiRoot}/eees-uelocation/v1/fetch,Fetch an UE location information.
+post,{apiRoot}/eees-uelocation/v1/subscriptions,Creates a new Individual Location Information Subscription resource
+get,{apiRoot}/eees-uelocation/v1/subscriptions/{subscriptionId},Read an Individual Location Information Subscription resource
+put,{apiRoot}/eees-uelocation/v1/subscriptions/{subscriptionId},Update an Individual Location Information Subscription resource
+patch,{apiRoot}/eees-uelocation/v1/subscriptions/{subscriptionId},Modify an Individual Location Information Subscription resource
+delete,{apiRoot}/eees-uelocation/v1/subscriptions/{subscriptionId},Delete an Individual Location Information Subscription resource
+post,{apiRoot}/npkmf-keyrequest/v1/prose-keys/request,Request Keying Materials for 5G ProSe
+get,{apiRoot}/nhss-gba-sdm/v1/{ueId}/subscriber-data,Retrieve the subscriber data of a user
+post,{apiRoot}/nhss-gba-sdm/v1/{ueId}/subscriptions,Subscribe to notifications
+delete,{apiRoot}/nhss-gba-sdm/v1/{ueId}/subscriptions/{subscriptionId},Unsubscribe from notifications
+patch,{apiRoot}/nhss-gba-sdm/v1/{ueId}/subscriptions/{subscriptionId},Modify the subscription
+post,{apiRoot}/nhss-gba-ueau/v1/{ueId}/security-information/generate-auth-data,Generate GBA authentication data for the UE
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/ims-data/registration-status,Retrieve the registration status of a user
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/ims-data/profile-data,Retrieve the complete IMS profile for a given IMS public identity (and public identities in the same IRS)
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/ims-data/profile-data/priority-levels,Retrieve the service priority levels associated to the user
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/ims-data/profile-data/ifcs,Retrieve the Initial Filter Criteria for the associated IMS subscription
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/ims-data/profile-data/service-level-trace-information,Retrieve the IMS service level trace information for the associated user
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/ims-data/profile-data/charging-info,Retrieve the charging information for to the user
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/ims-data/location-data/server-name,Retrieve the server name for the associated user
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/ims-data/location-data/scscf-capabilities,Retrieve the S-CSCF capabilities for the associated IMS subscription
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/ims-data/location-data/scscf-selection-assistance-info,Retrieve the S-CSCF selection assistance info
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/ps-domain/location-data,Retrieve the location data in PS domain
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/cs-domain/location-data,Retrieve the location data in CS domain
+put,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/repository-data/{serviceIndication},Update the repository data associated to an IMPU and service indication
+delete,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/repository-data/{serviceIndication},delete the Repository Data for a Service Indication
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/repository-data/{serviceIndication},Retrieve the repository data associated to an IMPU and service indication
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/identities/msisdns,retrieve the Msisdns associated to requested identity
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/identities/ims-associated-identities,Retrieve the associated identities to the IMS public identity included in the service request
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/identities/private-identities,Retrieve the associated private identities to the IMS public identity included in the service request
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/srvcc-data,Retrieve the srvcc data
+patch,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/srvcc-data,Patch
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/service-data/psi-status,Retrieve the PSI activation state data
+patch,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/service-data/psi-status,Patch
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/service-data/dsai,Retrieve the DSAI information associated to an Application Server
+patch,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/service-data/dsai,Patch
+put,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/service-data/sms-registration-info,Update the SMS registration information associated to a user
+delete,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/service-data/sms-registration-info,delete the SMS registration information
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/service-data/sms-registration-info,Retrieve the SMS registration information associated to a user
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/identities/imeisv,Retrieve the IMEISV information
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/ps-domain/ip-address,Retrieve the IP address information
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/ps-domain/tads-info,Retrieve the T-ADS information
+post,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/ps-domain/ue-reach-subscriptions,subscribe to notifications of UE reachability
+delete,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/ps-domain/ue-reach-subscriptions/{subscriptionId},unsubscribe from notifications to UE reachability
+patch,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/ps-domain/ue-reach-subscriptions/{subscriptionId},modify the subscription
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/ps-domain/user-state,Retrieve the user state information in PS domain
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/cs-domain/user-state,Retrieve the user state information in CS domain
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/cs-domain/csrn,Retrieve the routeing number in CS domain
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/access-data/wireline-domain/reference-location,Retrieve the reference location information
+post,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/subscriptions,subscribe to notifications
+delete,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/subscriptions/{subscriptionId},unsubscribe from notifications
+patch,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/subscriptions/{subscriptionId},modify the subscription
+post,{apiRoot}/nhss-ims-sdm/v1/shared-data-subscriptions,subscribe to notifications for shared data
+delete,{apiRoot}/nhss-ims-sdm/v1/shared-data-subscriptions/{subscriptionId},unsubscribe from notifications for shared data
+patch,{apiRoot}/nhss-ims-sdm/v1/shared-data-subscriptions/{subscriptionId},modify the subscription
+get,{apiRoot}/nhss-ims-sdm/v1/shared-data,retrieve shared data
+get,{apiRoot}/nhss-ims-sdm/v1/{imsUeId}/repository-data,Retrieve the repository data associated to an IMPU and service indication list
+post,{apiRoot}/nhss-ims-ueau/v1/{impi}/security-information/generate-sip-auth-data,Generate authentication data for the UE based on the Auth-Scheme provided
+post,{apiRoot}/nhss-ims-uecm/v1/{impu}/authorize,Authorize IMS Identities to register in the network or establish multimedia sessions and return CSCF location if it is stored
+put,{apiRoot}/nhss-ims-uecm/v1/{imsUeId}/scscf-registration,SCSCF registration information
+put,{apiRoot}/nhss-ims-uecm/v1/{impu}/scscf-registration/scscf-restoration-info,Update the S-CSCF restoration information of the UE
+get,{apiRoot}/nhss-ims-uecm/v1/{impu}/scscf-registration/scscf-restoration-info,Retrieve the S-CSCF restoration information of the UE
+delete,{apiRoot}/nhss-ims-uecm/v1/{impu}/scscf-registration/scscf-restoration-info,Delete the S-CSCF restoration information of the UE
+post,{apiRoot}/nhss-ee/v1/{ueId}/ee-subscriptions,Subscribe
+delete,{apiRoot}/nhss-ee/v1/{ueId}/ee-subscriptions/{subscriptionId},Unsubscribe
+patch,{apiRoot}/nhss-ee/v1/{ueId}/ee-subscriptions/{subscriptionId},Patch
+get,{apiRoot}/nhss-sdm/v1/{ueId}/ue-context-in-pgw-data,Retrieve the UE Context In PGW
+post,{apiRoot}/nhss-sdm/v1/{ueId}/subscriptions,subscribe to notifications
+delete,{apiRoot}/nhss-sdm/v1/{ueId}/subscriptions/{subscriptionId},unsubscribe from notifications
+patch,{apiRoot}/nhss-sdm/v1/{ueId}/subscriptions/{subscriptionId},modify the subscription
+post,{apiRoot}/nhss-ueau/v1/generate-av,Generate authentication vector for the UE
+post,{apiRoot}/nhss-uecm/v1/deregister-sn,MME/SGSN Deregistration
+post,{apiRoot}/nhss-uecm/v1/imei-update,IMEI Update
+post,{apiRoot}/nhss-uecm/v1/roaming-status-update,Roaming Status Update
+post,{apiRoot}/nupf-ee/v1/ee-subscriptions,subscribe to notifications
+post,{apiRoot}/ntsctsf-asti/v1/configurations,Creates a new Individual ASTI Configuration resource.
+post,{apiRoot}/ntsctsf-asti/v1/configurations/retrieve,Request the status of the 5G access stratum time distribution for a list of UEs.
+put,{apiRoot}/ntsctsf-asti/v1/configurations/{configId},Modifies an existing Individual ASTI Configuration resource.
+delete,{apiRoot}/ntsctsf-asti/v1/configurations/{configId},Delete an Individual ASTI Configuration
+post,{apiRoot}/ntsctsf-qos-tscai/v1/tsc-app-sessions,Creates a new Individual TSC Application Session Context resource
+get,{apiRoot}/ntsctsf-qos-tscai/v1/tsc-app-sessions/{appSessionId},Reads an existing Individual TSC Application Session Context
+patch,{apiRoot}/ntsctsf-qos-tscai/v1/tsc-app-sessions/{appSessionId},Modifies an existing Individual TSC Application Session Context
+post,{apiRoot}/ntsctsf-qos-tscai/v1/tsc-app-sessions/{appSessionId}/delete,Deletes an existing Individual TSC Application Session Context
+put,{apiRoot}/ntsctsf-qos-tscai/v1/tsc-app-sessions/{appSessionId}/events-subscription,Creates or modifies an Events Subscription subresource
+delete,{apiRoot}/ntsctsf-qos-tscai/v1/tsc-app-sessions/{appSessionId}/events-subscription,Deletes the Events Subscription subresource.
+post,{apiRoot}/ntsctsf-time-sync/v1/subscriptions,Creates a new subscription to notification of capability of time synchronization service resource
+get,{apiRoot}/ntsctsf-time-sync/v1/subscriptions/{subscriptionId},Reads an existing Individual Time Synchronization Exposure Subscription
+put,{apiRoot}/ntsctsf-time-sync/v1/subscriptions/{subscriptionId},Replace an individual Time Synchronization Exposure Subscription
+delete,{apiRoot}/ntsctsf-time-sync/v1/subscriptions/{subscriptionId},Delete an Individual TimeSynchronization Exposure Subscription
+post,{apiRoot}/ntsctsf-time-sync/v1/subscriptions/{subscriptionId}/configurations,Craete a new Individual Time Synchronization Exposure Configuration
+get,{apiRoot}/ntsctsf-time-sync/v1/subscriptions/{subscriptionId}/configurations/{configurationId},Reads an existing Individual Time Synchronization Exposure Configuration
+put,{apiRoot}/ntsctsf-time-sync/v1/subscriptions/{subscriptionId}/configurations/{configurationId},Replace an individual Time Synchronization Exposure Configuration
+delete,{apiRoot}/ntsctsf-time-sync/v1/subscriptions/{subscriptionId}/configurations/{configurationId},Delete an Individual TimeSynchronization Exposure Configuration
+post,{apiRoot}/nlmf-broadcast/v1/cipher-key-data,Request ciphering key data
+post,{apiRoot}/nlmf-loc/v1/determine-location,Determine Location of an UE
+post,{apiRoot}/nlmf-loc/v1/cancel-location,request cancellation of periodic or triggered location
+post,{apiRoot}/nlmf-loc/v1/location-context-transfer,transfer context information for periodic or triggered location
+post,{apiRoot}/n32f-forward/v1/n32f-process,N32-f Message Forwarding
+options,{apiRoot}/n32f-forward/v1/n32f-process,Discover communication options supported by next hop (IPX or SEPP)
+post,{apiRoot}/n32c-handshake/v1/exchange-capability,Security Capability Negotiation
+post,{apiRoot}/n32c-handshake/v1/exchange-params,Parameter Exchange
+post,{apiRoot}/n32c-handshake/v1/n32f-terminate,N32-f Context Terminate
+post,{apiRoot}/n32c-handshake/v1/n32f-error,N32-f Error Reporting Procedure
+get,{apiRoot}/nsepp-telescopic/v1/mapping,Maps an FQDN to/from a telescopic FQDN
+post,{apiRoot}/ndccf-contextmanagement/v1/data-collection-profiles,Creates a new Individual DCCF Data Collection Profile resource.
+delete,{apiRoot}/ndccf-contextmanagement/v1/data-collection-profiles/{profileId},Deletes an existing Individual DCCF Data Subscription resource.
+put,{apiRoot}/ndccf-contextmanagement/v1/data-collection-profiles/{profileId},Updates an existing Individual DCCF Data Collection Profile resource.
+post,{apiRoot}/ndccf-datamanagement/v1/analytics-subscriptions,Creates a new Individual DCCF Analytics Subscription resource.
+delete,{apiRoot}/ndccf-datamanagement/v1/analytics-subscriptions/{subscriptionId},Deletes an existing Individual DCCF Data Subscription.
+put,{apiRoot}/ndccf-datamanagement/v1/analytics-subscriptions/{subscriptionId},Updates an existing Individual DCCF Analytics Subscription resource.
+post,{apiRoot}/ndccf-datamanagement/v1/data-subscriptions,Creates a new Individual DCCF Data Subscription resource.
+delete,{apiRoot}/ndccf-datamanagement/v1/data-subscriptions/{subscriptionId},Deletes an existing Individual DCCF Data Subscription resource.
+put,{apiRoot}/ndccf-datamanagement/v1/data-subscriptions/{subscriptionId},Updates an existing Individual DCCF Data Subscription resource.
+post,{apiRoot}/nadrf-datamanagement/v1/data-store-records,Creates a new Individual Data Store Record resource.
+get,{apiRoot}/nadrf-datamanagement/v1/data-store-records,Retrieves existing Individual ADRF Data Store Records.
+delete,{apiRoot}/nadrf-datamanagement/v1/data-store-records/{storeTransId},Delete an existing Individual ADRF Data Store Record.
+post,{apiRoot}/nadrf-datamanagement/v1/data-retrieval-subscriptions,Creates a new Individual ADRF Data Retrieval Subscription resource.
+delete,{apiRoot}/nadrf-datamanagement/v1/data-retrieval-subscriptions/{subscriptionId},Delete an existing Individual ADRF Data Retrieval Subscription resource.
+post,{apiRoot}/nadrf-datamanagement/v1/request-storage-sub,Triggers the creation of a new ADRF Storage Subscription.
+post,{apiRoot}/nadrf-datamanagement/v1/request-storage-sub-removal,Triggers the removal of ADRF storage subscription.
+post,{apiRoot}/nadrf-datamanagement/v1/remove-stored-data-analytics,Remove ADRF data based on data or analytics specification.
+post,{apiRoot}/nmfaf-3cadatamanagement/v1/mfaf-data-analytics,subscribe to notifications
+post,{apiRoot}/nmfaf-3dadatamanagement/v1/configurations,Creates a new Individual MFAF Configuration resource.
+put,{apiRoot}/nmfaf-3dadatamanagement/v1/configurations/{transRefId},Updates an existing Individual MFAF Configuration resource.
+delete,{apiRoot}/nmfaf-3dadatamanagement/v1/configurations/{transRefId},Deletes an existing Individual MFAF Configuration resource.
+put,{apiRoot}/nipsmgw-smservice/v1/mt-sm-infos/{gpsi},Create the routing information for a given UE
+post,{apiRoot}/nipsmgw-smservice/v1/mt-sm-infos/{gpsi}/sendsms,Send SMS payload for a given UE
+put,{apiRoot}/nrouter-smservice/v1/mt-sm-infos/{gpsi},Create the routing information for a given UE
+post,{apiRoot}/nrouter-smservice/v1/mt-sm-infos/{gpsi}/sendsms,Send SMS payload for a given UE
+get,{apiRoot}/nmnpf-npstatus/v1/{gpsi},Retrieves the Number Portability status of the UE
+post,{apiRoot}/niwmsc-smservice/v1/mo-sm-infos/{supi}/sendsms,Send SMS payload for a given UE
+get,{apiRoot}/nmbsf-mbs-ud-ingest/v1/sessions,Retrieve all the active MBS User Data Ingest Sessions managed by the MBSF.
+post,{apiRoot}/nmbsf-mbs-ud-ingest/v1/sessions,Request the creation of a new MBS User Data Ingest Session.
+get,{apiRoot}/nmbsf-mbs-ud-ingest/v1/sessions/{sessionId},Retrieve an existing Individual MBS User Data Ingest Session resource.
+put,{apiRoot}/nmbsf-mbs-ud-ingest/v1/sessions/{sessionId},Request the update of an existing Individual MBS User Data Ingest Session resource.
+patch,{apiRoot}/nmbsf-mbs-ud-ingest/v1/sessions/{sessionId},Request the modification of an existing Individual MBS User Data Ingest Session resource.
+delete,{apiRoot}/nmbsf-mbs-ud-ingest/v1/sessions/{sessionId},Request the deletion of an existing Individual MBS User Data Ingest Session resource.
+get,{apiRoot}/nmbsf-mbs-ud-ingest/v1/status-subscriptions,Retrieve all the active MBS User Data Ingest Session Status Subscription resources managed by the MBSF.
+post,{apiRoot}/nmbsf-mbs-ud-ingest/v1/status-subscriptions,Request the creation of a new MBS User Data Ingest Session Status Subscription.
+get,{apiRoot}/nmbsf-mbs-ud-ingest/v1/status-subscriptions/{subscriptionId},Retrieve an existing Individual MBS User Data Ingest Session Status Subscription resource.
+put,{apiRoot}/nmbsf-mbs-ud-ingest/v1/status-subscriptions/{subscriptionId},Request the update of an existing Individual MBS User Data Ingest Session Status Subscription resource.
+patch,{apiRoot}/nmbsf-mbs-ud-ingest/v1/status-subscriptions/{subscriptionId},Request the modification of an existing Individual MBS User Data Ingest Session Status Subscription resource.
+delete,{apiRoot}/nmbsf-mbs-ud-ingest/v1/status-subscriptions/{subscriptionId},Request the deletion of an existing Individual MBS User Data Ingest Session Status Subscription resource.
+get,{apiRoot}/nmbsf-mbs-us/v1/mbs-user-services,Retrieve all the active MBS User Service resources managed by the MBSF.
+post,{apiRoot}/nmbsf-mbs-us/v1/mbs-user-services,Request the creation of a new MBS User Service.
+get,{apiRoot}/nmbsf-mbs-us/v1/mbs-user-services/{mbsUserServId},Retrieve an existing Individual MBS User Service resource.
+put,{apiRoot}/nmbsf-mbs-us/v1/mbs-user-services/{mbsUserServId},Request the update of an existing Individual MBS User Service resource.
+patch,{apiRoot}/nmbsf-mbs-us/v1/mbs-user-services/{mbsUserServId},Request the modification of an existing Individual MBS User Service resource.
+delete,{apiRoot}/nmbsf-mbs-us/v1/mbs-user-services/{mbsUserServId},Request the deletion of an existing Individual MBS User Service resource.
+post,{apiRoot}/nmbstf-distsession/v1/dist-sessions,Create
+patch,{apiRoot}/nmbstf-distsession/v1/dist-sessions/{distSessionRef},Updates an individual MBS distribution session resource in the MBSTF.
+delete,{apiRoot}/nmbstf-distsession/v1/dist-sessions/{distSessionRef},Deletes an individual MBS distribution session resource in the MBSTF.
+get,{apiRoot}/nmbstf-distsession/v1/dist-sessions/{distSessionRef},Retrieves an individual MBS distribution session resource in the MBSTF.
+post,{apiRoot}/nmbstf-distsession/v1/dist-sessions/{distSessionRef}/subscriptions,StatusSubscribe creating a subscription
+delete,{apiRoot}/nmbstf-distsession/v1/dist-sessions/{distSessionRef}/subscriptions/{subscriptionId},StatusUnSubscribe to unsubscribe from the Status Subscription
+patch,{apiRoot}/nmbstf-distsession/v1/dist-sessions/{distSessionRef}/subscriptions/{subscriptionId},StatusSubscribe to modify (update or renew) an individual subscription
+post,{apiRoot}/nnef-eas-deployment/v1/subscriptions,subscribe to notifications
+get,{apiRoot}/nnef-eas-deployment/v1/subscriptions/{subscriptionId},retrieve subscription
+delete,{apiRoot}/nnef-eas-deployment/v1/subscriptions/{subscriptionId},unsubscribe from notifications
+post,{apiRoot}/nnef-eventexposure/v1/subscriptions,subscribe to notifications
+get,{apiRoot}/nnef-eventexposure/v1/subscriptions/{subscriptionId},retrieve subscription
+put,{apiRoot}/nnef-eventexposure/v1/subscriptions/{subscriptionId},update subscription
+delete,{apiRoot}/nnef-eventexposure/v1/subscriptions/{subscriptionId},unsubscribe from notifications
+post,{apiRoot}/nchf-spendinglimitcontrol/v1/subscriptions,
+put,{apiRoot}/nchf-spendinglimitcontrol/v1/subscriptions/{subscriptionId},
+delete,{apiRoot}/nchf-spendinglimitcontrol/v1/subscriptions/{subscriptionId},
+get,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records,Records search with get
+delete,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records,Bulk Deletion of Records
+get,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records/{recordId},Record access
+put,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records/{recordId},Create/Modify Record
+delete,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records/{recordId},Delete a Record with an user provided RecordId
+get,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records/{recordId}/meta,Record's meta access
+patch,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records/{recordId}/meta,Record's meta update
+get,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records/{recordId}/blocks,Record's Blocks access
+get,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records/{recordId}/blocks/{blockId},Retrieve a specific Block
+put,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records/{recordId}/blocks/{blockId},Create or Update a specific Block in a Record.
+delete,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/records/{recordId}/blocks/{blockId},Delete a specific Block. Then update the Record
+get,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/subs-to-notify,Notification subscription retrieval
+get,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/subs-to-notify/{subscriptionId},Notification subscription retrieval
+delete,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/subs-to-notify/{subscriptionId},Delete a Notification Subscription of the storage
+patch,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/subs-to-notify/{subscriptionId},NotificationSubscription update
+put,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/subs-to-notify/{subscriptionId},NotificationSubscription Create/Update
+get,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/meta-schemas/{schemaId},Meta Schema access
+put,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/meta-schemas/{schemaId},Create/Modify Meta Schema
+delete,{apiRoot}/nudsf-dr/v1/{realmId}/{storageId}/meta-schemas/{schemaId},Delete a Meta Schema with an user provided SchemaId
+get,{apiRoot}/nudsf-timer/v1/{realmId}/{storageId}/timers,Timers search with get
+delete,{apiRoot}/nudsf-timer/v1/{realmId}/{storageId}/timers,Delete one or multiple timers based on filter
+put,{apiRoot}/nudsf-timer/v1/{realmId}/{storageId}/timers/{timerId},Create/Replace Timer
+patch,{apiRoot}/nudsf-timer/v1/{realmId}/{storageId}/timers/{timerId},Timer modification
+delete,{apiRoot}/nudsf-timer/v1/{realmId}/{storageId}/timers/{timerId},Delete a Timer with an user provided TimerId
+get,{apiRoot}/nudsf-timer/v1/{realmId}/{storageId}/timers/{timerId},Timer access
+get,{apiRoot}/nucmf-uecm/v1/dic-entries,retrieve a dictionary entry matching query parameters
+post,{apiRoot}/nucmf-uecm/v1/dic-entries,Create a dictionary entry in the UCMF
+get,{apiRoot}/nucmf-uecm/v1/dic-entries/{dicEntryId},Get an individual dictionary entry via dicEntryId
+post,{apiRoot}/nucmf-uecm/v1/subscriptions,Nucmf_UECapabilityManagement Subscribe service Operation
+delete,{apiRoot}/nucmf-uecm/v1/subscriptions/{subscriptionId},unsubscribe from notifications
+post,{apiRoot}/nucmf-provisioning/v1/provisionings,Create an Individual UE radio capability provisioning
+get,{apiRoot}/nucmf-provisioning/v1/provisionings/{provisioningId},Get an Individual UE radio capability provisioning
+patch,{apiRoot}/nucmf-provisioning/v1/provisionings/{provisioningId},Update (PATCH) an Individual UE radio capability provisioning
+put,{apiRoot}/nucmf-provisioning/v1/provisionings/{provisioningId},Replace (PUT) an Individual UE radio capability provisioning
+delete,{apiRoot}/nucmf-provisioning/v1/provisionings/{provisioningId},Remove an Individual UE radio capability provisioning
+post,{apiRoot}/nchf-convergedcharging/v3/chargingdata,
+post,{apiRoot}/nchf-convergedcharging/v3/chargingdata/{ChargingDataRef}/update,
+post,{apiRoot}/nchf-convergedcharging/v3/chargingdata/{ChargingDataRef}/release,
+post,{apiRoot}/nchf-offlineonlycharging/v1/offlinechargingdata,
+post,{apiRoot}/nchf-offlineonlycharging/v1/offlinechargingdata/{OfflineChargingDataRef}/update,
+post,{apiRoot}/nchf-offlineonlycharging/v1/offlinechargingdata/{OfflineChargingDataRef}/release,

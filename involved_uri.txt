@@ -1,0 +1,41 @@
+0:post,{apiRoot}/namf-comm/v1/subscriptions,Namf_Communication AMF Status Change Subscribe service Operation
+1:post,{apiRoot}/namf-comm/v1/ue-contexts/{ueContextId}/n1-n2-messages,Namf_Communication N1N2 Message Transfer (UE Specific) service Operation
+2:put,{apiRoot}/nausf-auth/v1/ue-authentications/{authCtxId}/5g-aka-confirmation,Put the UE response from the 5G-AKA process.
+3:get,{apiRoot}/nudm-sdm/v2/{supi}/sm-data,retrieve a UE's Session Management Subscription Data
+4:put,/subscription-data/{ueId}/context-data/amf-3gpp-access,To store the AMF context data of a UE using 3gpp access in the UDR
+5:post,{apiRoot}/nsmf-pdusession/v1/sm-contexts/{smContextRef}/release,Release SM Context
+6:post,{apiRoot}/nudm-sdm/v2/{ueId}/sdm-subscriptions,subscribe to notifications
+7:post,{apiRoot}/npcf-smpolicycontrol/v1/sm-policies,Create a new Individual SM Policy
+8:put,/subscription-data/{ueId}/authentication-data/authentication-status,To store the Authentication Status data of a UE
+9:get,{apiRoot}/namf-oam/v1/registered-ue-context, register ue to web
+10:post,{apiRoot}/npcf-am-policy-control/v1/policies,Create individual AM policy association.
+11:get,/policy-data/ues/{ueId}/am-data,Retrieves the access and mobility policy data for a subscriber
+12:post,{apiRoot}/namf-callback/v1/smContextStatus/{amfId}/{amfId}, N1N2Transfer Failure Notification
+13:put,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-3gpp-access,register as AMF for 3GPP access
+14:post,{apiRoot}/npcf-smpolicycontrol/v1/sm-policies/{smPolicyId}/delete,Delete an existing Individual SM Policy
+15:get,/subscription-data/{ueId}/context-data/smf-registrations,Retrieves the SMF registration list of a UE
+16:get,{apiRoot}/nudm-sdm/v2/{supi}/smf-select-data,retrieve a UE's SMF Selection Subscription Data
+17:delete,{apiRoot}/nnrf-nfm/v1/nf-instances/{nfInstanceID},Deregisters a given NF Instance
+18:get,/subscription-data/{ueId}/authentication-data/authentication-subscription,Retrieves the authentication subscription data of a UE
+19:patch,{apiRoot}/nudm-uecm/v1/{ueId}/registrations/amf-3gpp-access,Update a parameter in the AMF registration for 3GPP access
+20:patch,/subscription-data/{ueId}/context-data/amf-3gpp-access,To modify the AMF context data of a UE using 3gpp access in the UDR
+21:post,{apiRoot}/nausf-auth/v1/ue-authentications, Contains the URI of the newly created resource according to the structure
+22:get,{apiRoot}/nudm-sdm/v2/{supi}/nssai,retrieve a UE's subscribed NSSAI
+23:get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/sm-data,Retrieves the Session Management subscription data of a UE
+24:delete,{apiRoot}/npcf-am-policy-control/v1/policies/{polAssoId},Delete individual AM policy association.
+25:get,{apiRoot}/nnssf-nsselection/v2/network-slice-information,Retrieve the Network Slice Selection Information
+26:post,/subscription-data/{ueId}/context-data/sdm-subscriptions,Create individual sdm subscription
+27:post,{apiRoot}/nudm-ueau/v1/{supi}/auth-events,Create a new confirmation event
+28:post,{apiRoot}/nsmf-pdusession/v1/sm-contexts,Create SM Context
+29:get,{apiRoot}/nudm-sdm/v2/{supi}/ue-context-in-smf-data,retrieve a UE's UE Context In SMF Data
+30:delete,{apiRoot}/nudm-sdm/v2/{ueId}/sdm-subscriptions/{subscriptionId},unsubscribe from notifications
+31:post,{apiRoot}/nudm-ueau/v1/{supiOrSuci}/security-information/generate-auth-data,Generate authentication data for the UE
+32:get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/smf-selection-subscription-data,Retrieves the SMF selection subscription data of a UE
+33:post,{apiRoot}/nsmf-pdusession/v1/sm-contexts/{smContextRef}/modify,Update SM Context
+34:get,/subscription-data/{ueId}/{servingPlmnId}/provisioned-data/am-data,Retrieves the access and mobility subscription data of a UE
+35:delete,/subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId},Deletes a sdmsubscriptions
+36:patch,/subscription-data/{ueId}/authentication-data/authentication-subscription,modify the authentication subscription data of a UE
+37:get,{apiRoot}/nudm-sdm/v2/{supi}/am-data,retrieve a UE's Access and Mobility Subscription Data
+38:get,{apiRoot}/nnrf-disc/v1/nf-instances,Search a collection of NF Instances
+39:put,{apiRoot}/nnrf-nfm/v1/nf-instances/{nfInstanceID},Register a new NF Instance
+40:get,/policy-data/ues/{ueId}/sm-data,Retrieves the session management policy data for a subscriber
