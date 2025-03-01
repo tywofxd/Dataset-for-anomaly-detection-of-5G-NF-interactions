@@ -33,3 +33,8 @@ The directories and files contained therein are described as follows.
 4. involved_uri.txt
 
    This txt file contains all the URI templates used in our experiment.
+
+
+More information can be found in our paper:
+Y. Tan, J. Liu, Y. Li and J. Wang, "Deep Learning Based Proactive Anomaly Detection for 5G Core Control Plane Network Function Interactions," in IEEE Transactions on Cognitive Communications and Networking, doi: 10.1109/TCCN.2025.3539660.
+
